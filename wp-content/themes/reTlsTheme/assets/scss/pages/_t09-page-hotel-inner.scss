@@ -1,0 +1,358 @@
+.ts-hotel-inner-page {
+	.four-image-gallery {
+		margin-top: 60px;
+		@media only screen and (min-width: 992px) {
+			display: flex;
+		}
+		@media only screen and (min-width: 1200px) {
+			margin-top: 80px;
+		}
+		.top {
+			display: flex;
+			@media only screen and (min-width: 992px) {
+				display: flex;
+				flex: 1;
+			}
+		}
+		.bottom {
+			display: flex;
+			@media only screen and (min-width: 992px) {
+				flex-basis: 230px;
+				flex-direction: column;
+				.image {
+					padding-bottom: 100%;
+					width: 100%;
+				}
+			}
+			@media only screen and (min-width: 1600px) {
+				flex-basis: 300px;
+			}
+		}
+		.image {
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			padding-bottom: 50%;
+			width: 50%;
+			border: 1px solid $white;
+			position: relative;
+
+			@media only screen and (min-width: 992px) {
+				padding-bottom: 0;
+			}
+
+			&:before {
+				opacity: 0;
+				position: absolute;
+				content: "";
+				border: 1px solid rgba(255, 255, 255, 0.5);
+				top: 50%;
+				left: 50%;
+				width: 0;
+				height: 0;
+				-webkit-transition: all 0.3s;
+				-moz-transition: all 0.3s;
+				-o-transition: all 0.3s;
+				transition: all 0.3s;
+			}
+
+			&:hover,
+			&:focus {
+				&:before {
+					opacity: 1;
+					top: 15px;
+					left: 15px;
+					width: calc(100% - 30px);
+					height: calc(100% - 30px);
+				}
+			}
+		}
+
+		&.three{
+			@media only screen and (min-width: 992px) {
+				.top{
+					.image{
+						width: 33.33%;
+						display: block;
+						padding-bottom: 33.33%;
+					}
+				}
+			}
+		}
+
+		&.two{
+			@media only screen and (min-width: 992px) {
+				.top{
+					.image{
+						width: 50%;
+						display: block;
+						padding-bottom: 50%;
+					}
+				}
+			}
+		}
+
+		&.one{
+			.top{
+				justify-content: center;
+				.image{
+					width: 50%; 
+					display: block; 
+					height: 50%;
+				}
+			}
+			@media only screen and (min-width: 768px) {
+				.top{
+					.image{
+						width: 30%;
+						display: block;
+						padding-bottom: 30%; 
+					}
+				}
+			}
+			@media only screen and (min-width: 992px) {
+				.top{
+					.image{
+						width: 25%;
+						display: block;
+						padding-bottom: 25%;
+					}
+				}
+			}
+		}
+
+	}
+
+
+
+	.hotel-offer-slider {
+		margin-top: 60px;
+		@media only screen and (min-width: 1200px) {
+			margin-top: 101px;
+		}
+		@media only screen and (min-width: 1200px) {
+			margin-top: 94px;
+		}
+		@media only screen and (min-width: 1600px) {
+			margin-top: 103px;
+		}
+		.owl-hotel-offer {
+			.item {
+				background-color: #f2f2f2;
+				@media only screen and (min-width: 768px) {
+					display: flex;
+				}
+				.image {
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center;
+					padding-bottom: 90%;
+					@media only screen and (min-width: 768px) {
+						flex-basis: 50%;
+						padding-bottom: 50%;
+					}
+					@media only screen and (min-width: 992px) {
+						padding-bottom: 30%;
+					}
+				}
+				.content {
+					padding: 15px;
+					@media only screen and (min-width: 768px) {
+						flex-basis: 50%;
+						padding: 40px;
+					}
+					.title {
+						color: $black;
+						font-size: 20px;
+						line-height: 1.3;
+						font-weight: bold;
+					}
+					.text {
+						color: $gray33;
+						margin-top: 17px;
+					}
+					.link-type-1 {
+						margin-top: 25px;
+						display: inline-block;
+					}
+				}
+			}
+			.owl-dots {
+				background-image: url("images/owl-dots.png");
+				background-repeat: no-repeat;
+				background-position: center bottom;
+				.owl-dot {
+					opacity: 0;
+				}
+			}
+		}
+	}
+}
+
+/* Hotels Page OVERRIDE */
+.hotels-post{
+	.logo-inner-desc{
+		display: none;
+	}
+	.tab-level-nav {
+		.shareparent {
+			.left-navbar ul{
+				margin-bottom: 0px;
+			}
+		}
+	}
+	@media only screen and (min-width: 1200px) {
+		.page-intro-inner-wrapper{
+			flex-direction: row-reverse;
+			.logo-wrapper-outer{
+				display: none;
+			}
+			.logo-inner-desc{
+				display: block;
+			}
+		}
+		.tab-level-nav {
+			.shareparent {
+				.left-navbar ul{
+					margin-bottom: 20px;
+					li{
+						&:first-child{
+							margin-left: 0;
+						}
+					}
+				}
+			}
+		}
+	} 
+	&.ts-hotel-inner-page{
+		.component-page-intro{
+			text-align: center;
+		}
+		.comp-tab-level-padding.tab-level-nav{
+			text-align: left;
+			
+			@media only screen and (min-width: 1200px) {
+				padding-left: 0px;
+			}
+			@media only screen and (min-width: 1420px) {
+				position: absolute;
+				top: 210px;
+				right: 0;
+			}
+			.shareparent {
+				.left-navbar {
+					ul{
+						justify-content: center;
+					}
+				}
+			}
+			&.listings{
+				@media only screen and (min-width: 1420px) {
+					position: absolute;
+					top: 140px;
+					right: 0;
+				}
+			}
+		}
+	}
+	.component-page-intro.intro-type-3{
+		padding-top: 0px;
+		@media only screen and (min-width: 1200px) {
+			.text-wrapper{
+				width: 100%;
+				max-width: 100%;
+				flex-basis: auto;
+				.main-title{
+					font-size: 42px;
+				}
+				.contact-info{
+					.item-parent{
+						display: flex;
+						.right-section .item-wrapper:nth-last-of-type(1){
+							margin-top: 0;
+							a{
+								padding-right: 0;
+
+							}
+							.content{
+								padding-right: 0;
+								width: auto;
+							}
+						}
+						.right-section{
+							a{
+								.icon{
+									width: 34px;
+									height: 52px;
+								}
+							}
+						}
+						.left-section{
+							max-width: 570px;
+						}
+					}
+				}
+				 .description{
+				 	display: flex;
+				 	margin-top: 25px;
+				 	justify-content: space-between;
+				 	.desc-wrap{
+					 	max-width: 80%;	
+					 }
+					 .logo-inner-desc{
+					 	align-self: flex-start;
+					 	margin-top: 15px;
+					 }
+				 }
+
+			}
+			.page-intro-inner-wrapper {
+				.contact-info {
+					margin-top: 20px;
+					.item-wrapper {
+						flex-wrap: nowrap;
+						align-items: flex-start;
+						.icon{
+							border: 0;
+							width: 30px;
+							height: 30px;
+							align-items: normal;
+							padding-top: 0;
+							margin-top: -5px;
+							margin-left: -10px;
+						}
+						.content{
+							font-size: 16px;
+							padding-left: 0;
+							width: auto;
+							br{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media only screen and (min-width: 1420px) {
+			padding-top: 40px;
+			.text-wrapper{
+				margin-top: 70px;
+				.contact-info{
+					.item-parent{
+						.left-section{
+							max-width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+	.destination-info{
+		@media only screen and (min-width: 1420px) {
+			padding-left: 0px;
+		}
+		.main-title{
+			margin-bottom: 0;
+		}
+	}
+}

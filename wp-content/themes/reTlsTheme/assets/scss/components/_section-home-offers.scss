@@ -1,0 +1,285 @@
+$gold-color: $gold-2;
+
+.section-home-offers {
+    padding-top: 65px;
+    position: relative;
+
+    @media only screen and (min-width: 1200px) {
+        padding-top: 95px;
+    }
+
+    @media only screen and (min-width: 1600px) {
+        padding-top: 125px;
+    }
+
+    &:before {
+        content: " ";
+        position: absolute;
+        top: -235px;
+        left: 0;
+        right: auto;
+        background-image: url("images/home/offers/top-bg.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain;
+        width: 274px;
+        height: 699px;
+        // width: 393px;
+        // height: 639px;
+        z-index: -1;
+        opacity: 0.4;
+        display: none;
+
+        @media only screen and (min-width: 1600px) {
+            display: block;
+            top: -118px;
+        }
+    }
+
+    .top-title-section {
+        @media only screen and (min-width: 1200px) {
+            text-align: center;
+        }
+        .section-title-wrapper {
+            @media only screen and (min-width: 1200px) {
+                display: inline-block;
+                text-align: left;
+            }
+
+            .line-title {
+            }
+
+            .home-section-title {
+            }
+        }
+
+        .description-link-wrapper {
+            margin-top: 30px;
+            position: relative;
+
+            .description-wrapper {
+                display: none;
+
+                @media only screen and (min-width: 1200px) {
+                    display: block;
+                    width: 100%;
+                    max-width: 850px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                @media only screen and (min-width: 1340px) {
+                    max-width: 930px;
+                }
+
+                @media only screen and (min-width: 1600px) {
+                    max-width: 960px;
+                }
+            }
+
+            .link-wrapper {
+                @media only screen and (min-width: 1200px) {
+                    position: absolute;
+                    right: 0;
+                    bottom: 12px;
+                }
+            }
+        }
+    }
+
+    //offers items list
+    .item-list-wrapper {
+        margin-top: 25px;
+
+        @media only screen and (min-width: 1200px) {
+            margin-top: 55px;
+        }
+
+        .item{
+
+            & + .item{
+                margin-top: 5px;
+
+                @media only screen and (min-width: 768px) {
+                    margin-top: 0;
+                }
+            }
+
+            a{
+                display: block;
+                position: relative;
+
+                .image {
+                    position: relative;
+
+                    &:before{
+                        // @media only screen and (min-width: 1200px) {
+                        //     content: " ";
+                        //     top: 0;
+                        //     bottom:0;
+                        //     position: absolute;
+                        //     left:0 ;
+                        //     right: 0;
+                        //     background-color: $black;
+                        // }
+                    }
+    
+                    .offer-lable {
+                        color: $white;
+                        font-size: 14px;
+                        background-color: $gold-2;
+                        padding: 2px 10px;
+                        font-family: $primary-font;
+                        position: absolute;
+                        top: 20px;
+                        left: 20px;
+                        display: inline-block;
+                    }
+                   
+                    img{
+                        &:before{
+                            padding-top: calc(100% * 1200/ 800);
+                        }
+                    }
+                }
+
+                .content {
+                    padding: 15px 0 20px;
+                    position: relative;
+    
+                    @media only screen and (min-width: 768px) {
+                        padding: 15px 0 5px;
+                    }
+    
+                    @media only screen and (min-width: 1200px) {
+                        padding: 100px 30px 0px;
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        left: 0;
+                        background: #000;
+                        background: linear-gradient(0deg, #000 0%, rgba(255,255,255,0) 100%);
+                        @include transition(0.5s all);
+                    }    
+                    .title {
+                        color: $black;
+                        font-size: 20px;
+                        line-height: 1.5;
+                        font-weight: 400;
+                        font-family: "Ubuntu",sans-serif;
+                        & + .text {
+                            margin-top: 20px;
+                            @media only screen and (min-width: 1200px) {
+                                margin-top: 25px;
+                                margin: 0;
+                            }
+                        }
+
+                        @media only screen and (min-width: 1200px) {
+                            color: $white;
+                            font-size: 28px;
+                            line-height: 1.2;
+                        }
+                    }
+                 
+                    .text {
+                        color: $gray33;
+                        font-size: 18px;
+                        line-height: 1.2;
+                        display: none;
+                        @include transition(0.3s all);
+
+                        @media only screen and (min-width: 1200px) {
+                            color: $white;
+                            line-height: 1.5;
+                            display: block;
+                            opacity: 0;
+                            line-height: 0;
+                            @include transition(0.3s all);
+                        }
+                    }
+                    .link-type-1 {
+                        display: none;
+                        font-size: 17px;
+                        @include transition(0.3s all);
+
+                        @media only screen and (min-width: 1200px) {
+                            color: $white;
+                            margin-top: 0;
+                            display: inline-block;
+                            opacity: 0;
+                            height: 0;
+                            line-height: 0;
+                        }
+
+                        &:before {
+                            @media only screen and (min-width: 1200px) {
+                                background-color: $white;
+                            }
+                        }
+                    
+                        &:after {
+                            @media only screen and (min-width: 1200px) {
+                                background-color: $white;
+                            }
+                        }
+                    }
+                }
+
+                &:hover{
+                    .content{     
+                        @media only screen and (min-width: 1200px) {
+                            padding: 100px 30px 25px;
+
+                        }
+                        .title {
+                            & + .text {
+                                @media only screen and (min-width: 1200px) {
+                                    margin-top: 25px;
+                                }
+                            }
+                        }
+                        .text{
+                            @media only screen and (min-width: 1200px) {
+                                display: block;
+                                opacity: 1;
+                                line-height: 1.5;
+                            }
+                        }
+                        .link-type-1{
+                            @media only screen and (min-width: 1200px) {
+                                display: inline-block;
+                                opacity: 1;
+                                line-height: 1.8;
+                                margin-top: 20px;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .items-row{
+            @media only screen and (min-width: 768px) {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin: -15px;
+            }
+
+            .item {
+                @media only screen and (min-width: 768px) {
+                    flex-basis: 50%;
+                    max-width: 50%;
+                    padding: 15px;
+                }
+                @media only screen and (min-width: 768px) {
+                    flex-basis: 33.333333%;
+                    max-width: 33.333333%;
+                }
+            }
+        }
+
+    }
+}

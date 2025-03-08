@@ -1,0 +1,34 @@
+.section-title-wrapper {
+    .line-title {
+    }
+
+    .home-section-title {
+        font-size: 45px;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-bottom: 0;
+
+        @media only screen and (min-width: 768px) {
+            font-size: 55px;
+            line-height: 70px;
+            margin-top: 4px;
+            font-weight: 600;
+        }
+
+        @media only screen and (min-width: 1600px) {
+            font-size: 65px;
+            line-height: 70px;
+            margin-top: 16px;
+        }
+    }
+}
+
+@import "../components/section-home-authentic-experience";
+@import "../components/section-home-diverse-destinations";
+@import "../components/section-home-things-to-explore";
+@import "../components/section-home-inviting-escapes";
+@import "../components/section-home-offers";
+@import "../components/section-home-instagram";
+@import "../components/section-home-our-partners";
+@import "../components/section-home-faq";
+@import "../components/section-home-tropical-paradise";

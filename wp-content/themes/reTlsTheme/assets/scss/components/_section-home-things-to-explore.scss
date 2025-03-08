@@ -1,0 +1,305 @@
+.section-home-things-to-explore {
+    margin-top: 70px;
+
+    @media only screen and (min-width: 1200px) {
+        margin-top: 100px;
+    }
+
+    @media only screen and (min-width: 1600px) {
+        margin-top: 130px;
+    }
+
+    .top-title-wrapper {
+        @media only screen and (min-width: 1200px) {
+            display: none;
+        }
+
+        .description-link-wrapper{
+            margin-top: 30px;
+            position: relative;
+        }
+    }
+
+    .inner-title-wrapper {
+        .section-title-wrapper .home-section-title {
+            @media only screen and (min-width: 1200px) {
+                font-size: 43px;
+                line-height: 50px;
+                margin-top: 4px;
+            }
+            @media only screen and (min-width: 1600px) {
+                font-size: 50px;
+                line-height: 60px;
+                margin-top: 18px;
+            }
+        }
+    }
+
+    .grid-items-section {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        @media only screen and (min-width: 768px) {
+            flex: 0 0 83.33333333%;
+            max-width: 83.33333333%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            padding-left: 0;
+            padding-right: 0;
+            overflow: hidden;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .grid-inner-wrapper {
+            //common item styles
+            .item {
+                .link-item {
+                    display: block;
+                    width: 100%;
+                    padding-bottom: 100%;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    overflow: hidden;
+                    position: relative;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        z-index: 10;
+                        background-color: rgba($black, 0.5);
+                        opacity: 1;
+                        @include transition(all 0.3s);
+                    }
+
+                    .link-inner {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        padding: 10px;
+                        z-index: 10;
+                        width: 100%;
+                        text-align: center;
+                        @media only screen and (min-width: 1200px) {
+                            text-align: left;
+                        }
+
+                        .text {
+                            font-size: 13px;
+                            color: $white;
+                            font-weight: 700;
+                            text-transform: uppercase;
+
+                            @media only screen and (min-width: 768px) {
+                                font-size: 24px;
+                            }
+                            @media only screen and (min-width: 1200px) {
+                                font-size: 18px;
+                                max-width: 200px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &.mobile {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: flex-start;
+                margin: 45px -1px -1px;
+                overflow: hidden;
+
+                @media only screen and (min-width: 1200px) {
+                    display: none;
+                }
+
+                .item {
+                    display: flex;
+                    flex-basis: 50%;
+                    max-width: 50%;
+                    padding: 1px;
+                }
+            }
+
+            &.desktop {
+                display: none;
+
+                @media only screen and (min-width: 1200px) {
+                    display: flex;
+                    flex-direction: row;
+                    margin: -5px;
+                }
+
+                .item {
+                    padding: 5px;
+
+                    .link-item {
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            z-index: 10;
+                            background-color: rgba($black, 0.5);
+                            opacity: 0;
+                            @include transition(all 0.3s);
+                        }
+
+                        .link-inner {
+                            z-index: 10;
+                            opacity: 1;
+                            @include transition(all 0.3s);
+                            display: flex;
+                            align-items: center;
+                            left: 0;
+                            transform: translate(0, -50%);
+                            padding: 0;
+                            -webkit-text-shadow:0px 0px 3px rgba($black, 1);
+                            -moz-text-shadow:0px 0px 3px rgba($black, 1);
+                            -ms-text-shadow:0px 0px 3px rgba($black, 1);
+                            -o-text-shadow:0px 0px 3px rgba($black, 1);
+                            text-shadow:0px 0px 3px rgba($black, 1);
+                            .line {
+                                width: 73px;
+                                height: 2px;
+                                background-color: $white;
+                            }
+
+                            .text {
+                                padding: 20px;
+                            }
+                        }
+
+                        &:hover {
+                            &:before {
+                                opacity: 1;
+                            }
+
+                            .link-inner {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+
+                //left section
+                .left-section {
+                    flex-basis: 20%;
+                    max-width: 20%;
+
+                    .bottom {
+                        height: 66.66666667%;
+
+                        .item {
+                            height: 100%;
+
+                            .link-item {
+                                height: 100%;
+                                padding-bottom: 0;
+                            }
+                        }
+                    }
+                }
+
+                //middle section
+                .middle-section {
+                    flex-basis: 40%;
+                    max-width: 40%;
+
+                    .bottom {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        .item {
+                            flex-basis: 50%;
+                            max-width: 50%;
+                        }
+                    }
+                }
+
+                //right section
+                .right-section {
+                    flex-basis: 40%;
+                    max-width: 40%;
+
+                    .top {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+
+                        .item {
+                            flex-basis: 50%;
+                            max-width: 50%;
+                        }
+                    }
+
+                    .middle {
+                        height: 33.33333333%;
+
+                        .item {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            height: 100%;
+                            position: relative;
+
+                            .bg-logo-img{
+                                height: 100%;
+                                position: absolute;
+                                left: 0;
+                                right: 0;
+                                bottom: 0;
+                                top: 0;
+                                background-image: url('images/home/things-to-do/truly-logo-bg.png');
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: right center;
+                                display: none;
+
+                                @media only screen and (min-width: 1200px) {
+                                    display: block;
+                                }
+                            }
+
+                            .section-inner-wrapper {
+                                padding: 0 30px;
+                                max-width: 550px;
+                                .home-section-title {
+                                    margin-top: 9px;
+
+                                    @media only screen and (min-width: 1600px) {
+                                        margin-top: 18px;
+                                    }
+                                }
+
+                                .link-wrapper {
+                                    margin-top: 30px;
+                                }
+                            }
+                        }
+                    }
+
+                    .bottom {
+                        .item {
+                            .link-item {
+                                padding-bottom: calc(50% - 5px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

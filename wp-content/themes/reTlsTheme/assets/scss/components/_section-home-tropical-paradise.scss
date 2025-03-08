@@ -1,0 +1,95 @@
+.section-home-tropical-paradise {
+    margin-top: 40px;
+
+    @media only screen and (min-width: 1200px) {
+        margin-top: 100px;
+    }
+    
+    @media only screen and (min-width: 1600px) {
+        margin-top: 160px;
+    }
+
+    .mobile-image {
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        @media only screen and (min-width: 768px) {
+            display: none;
+        }
+
+        &:before {
+            content: "";
+            background-color: $black;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            opacity: 0.5;
+        }
+
+        .image-inner-content {
+        }
+    }
+
+    .desktop-image {
+        display: none;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        @media only screen and (min-width: 768px) {
+            display: block;
+        }
+
+        &:before {
+            content: "";
+            background-color: $black;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            opacity: 0.5;
+        }
+    }
+
+    .section-inner-wrapper {
+        padding: 80px 0;
+
+        @media only screen and (min-width: 768px) {
+            padding: 150px 0;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            padding: 200px 0;
+        }
+
+        .section-title-wrapper {
+            .line-title {
+                color: $white;
+
+                &:before {
+                    background: $white;
+                }
+            }
+
+            .home-section-title {
+                color: $white;
+            }
+        }
+
+        .description-link-wrapper {
+            margin-top: 20px;
+            color: $white;
+
+            .description-wrapper {
+                max-width: 550px;
+            }
+        }
+    }
+}

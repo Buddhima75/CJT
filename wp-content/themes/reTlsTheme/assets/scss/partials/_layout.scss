@@ -1,0 +1,52 @@
+$bullet-color: #b5985a;
+
+
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style-image: url('../assets/images/svg-icon-bullet.svg');
+    // list-style: none; 
+
+    ul{
+        list-style-image: url('../assets/images/svg-icon-bullet-dash.svg');
+        // list-style-image: url('../assets/images/list-icon-2.jpg');
+    }
+}
+
+ul{
+    li{  
+        margin-top: 10px;
+        padding-left: 10px;
+
+        &:nth-of-type(1){
+            margin-top: 0;
+        }
+    }
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+    margin-bottom: 0
+}
+
+  
+
+dl {
+    margin-top: 0;
+    margin-bottom: 20px
+}
+
+dd,
+dt {
+    line-height: 1.42857143
+}
+
+dt {
+    font-weight: 700
+}
+
+dd {
+    margin-left: 0
+}

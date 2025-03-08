@@ -1,0 +1,39 @@
+.ts-our-partners-page {
+	.our-partner {
+		margin-top: 55px;
+		@media only screen and (min-width: 768px) {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 23px;
+			margin-left: -25px;
+			margin-right: -25px;
+			width: auto;
+		}
+		.item {
+			margin-top: 30px;
+			display: block;
+			@media only screen and (min-width: 768px) {
+				flex-basis: 50%;
+				padding: 0 25px;
+			}
+			@media only screen and (min-width: 992px) {
+				flex: 0 0 33.333333%;
+				max-width: 33.333333%;
+			}
+			.logo {
+				height: 200px;
+				background-color: #f2f2f2;
+				display: flex;
+				padding: 15px;
+				justify-content: center;
+				align-items: center;
+			}
+			.title {
+				font-weight: bold;
+				font-size: 20px;
+				text-align: center;
+				margin-top: 12px;
+			}
+		}
+	}
+}

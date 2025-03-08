@@ -1,0 +1,24 @@
+.section-our-partners{
+    margin-top: 100px;
+
+    .our-partners-carousel{
+        .item{
+            display: flex;
+            padding: 0 10px;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+
+    .owl-stage {
+        display: flex;
+    }
+
+    .owl-item{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+}

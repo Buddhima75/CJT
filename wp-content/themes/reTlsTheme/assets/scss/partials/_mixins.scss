@@ -1,0 +1,29 @@
+/* 2. Mixin */
+@mixin transition($transition) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -ms-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+}
+
+@mixin truncate() {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin box-shadow(){
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+//convert zoom base px value
+
+@function px( $targetPx , $ratio ) { 
+    $val : $targetPx / $ratio ;
+    @return $val;
+}
+

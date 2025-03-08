@@ -1,0 +1,27 @@
+.section-home-our-partners{
+    margin-top: 70px;
+
+    .section-inner-wrapper{
+        @media only screen and (min-width: 1200px) {
+            text-align: center;
+        }
+    }
+
+    .section-title-wrapper{
+        display: inline-block;
+
+        .line-title{
+            @media only screen and (min-width: 1200px) {
+                text-align: left;
+            }
+        }
+    }
+
+    .section-our-partners {
+        margin-top: 40px;
+
+        @media only screen and (min-width: 1600px) {
+            margin-top: 55px;
+        }
+    }
+}

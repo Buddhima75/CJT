@@ -1,0 +1,117 @@
+.gallery-type-1 {
+	margin-top: 54px;
+	.select-list {
+		.form-control {
+			height: calc(1.5em + 1.5rem + 2px);
+			border-radius: 0;
+			max-width: 300px;
+			margin: 0 auto;
+			color: #333333;
+			font-size: 16px;
+			font-family: $primary-font;
+			border: 1px solid #999999;
+
+			& + .form-control {
+				margin-top: 20px;
+			}
+		}
+
+		& + .gallery-list {
+			margin-top: 52px;
+		}
+	}
+	.gallery-list {
+		.fancybox {
+			display: block;
+			margin-bottom: 4px;
+			.imgwrap {
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				padding-bottom: 100%;
+				position: relative;
+				&:before {
+					opacity: 0;
+					position: absolute;
+					content: "";
+					border: 1px solid rgba(255, 255, 255, 0.5);
+					top: 50%;
+					left: 50%;
+					width: 0;
+					height: 0;
+					-webkit-transition: all 0.3s;
+					-moz-transition: all 0.3s;
+					-o-transition: all 0.3s;
+					transition: all 0.3s;
+				}
+			}
+			&:hover,
+			&:focus {
+				.imgwrap {
+					&:before {
+						opacity: 1;
+						top: 15px;
+						left: 15px;
+						width: calc(100% - 30px);
+						height: calc(100% - 30px);
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+	.gallery-type-1 {
+		.gallery-list {
+			// display: flex;
+			// flex-wrap: wrap;
+			width: auto;
+			margin-left: -2px;
+			margin-right: -2px;
+			.fancybox {
+				margin-bottom: 0;
+				border: 2px solid $white;
+				// flex-basis: 50%;
+				float: left;
+				width: 50%;
+			}
+		}
+	}
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+	.gallery-type-1 {
+		.gallery-list {
+			.fancybox {
+				width: 33.333333%;
+				// flex: 0 0 33.333333%;
+				// max-width: 33.333333%;
+			}
+		}
+	}
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+	.gallery-type-1 {
+		.gallery-list {
+			.fancybox {
+				// flex: 0 0 20%;
+				// max-width: 20%;
+				width: 20%;
+				&:first-child {
+					// flex: 0 0 40%;
+					// max-width: 40%;
+					width: 40%;
+					border-bottom: 0;
+				}
+			}
+		}
+	}
+}

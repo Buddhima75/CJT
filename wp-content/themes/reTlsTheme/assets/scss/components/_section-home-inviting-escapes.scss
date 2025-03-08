@@ -1,0 +1,311 @@
+$gold-color: $gold-2;
+
+.section-home-inviting-escapes {
+    padding-top: 65px;
+    position: relative;
+
+    @media only screen and (min-width: 1200px) {
+        padding-top: 95px;
+    }
+
+    @media only screen and (min-width: 1600px) {
+        padding-top: 145px;
+    }
+
+    &:before {
+        content: " ";
+        position: absolute;
+        top: -235px;
+        right: 0;
+        background-image: url("images/home/inviting-escapes/top-bg.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        width: 238px;
+        height: 482px;
+        // width: 393px;
+        // height: 639px;
+        z-index: -1;
+        opacity: 0.4;
+
+        @media only screen and (min-width: 768px) {
+            width: 393px;
+            height: 639px;
+            top: -330px;
+        }
+
+        @media only screen and (min-width: 992px) {
+            width: 393px;
+            height: 639px;
+            top: -290px;
+        }
+
+        @media only screen and (min-width: 1200px) {
+        }
+
+        @media only screen and (min-width: 1600px) {
+            top: -270px;
+        }
+    }
+
+    .top-title-section {
+        @media only screen and (min-width: 1200px) {
+            text-align: center;
+        }
+        .section-title-wrapper {
+            @media only screen and (min-width: 1200px) {
+                display: inline-block;
+                text-align: left;
+            }
+
+            .line-title {
+            }
+
+            .home-section-title {
+            }
+        }
+
+        .description-link-wrapper {
+            margin-top: 30px;
+            position: relative;
+
+            .description-wrapper {
+                display: none;
+
+                @media only screen and (min-width: 1200px) {
+                    display: block;
+                    width: 100%;
+                    max-width: 850px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                @media only screen and (min-width: 1340px) {
+                    max-width: 930px;
+                }
+
+                @media only screen and (min-width: 1600px) {
+                    max-width: 960px;
+                }
+            }
+
+            .link-wrapper {
+                @media only screen and (min-width: 1200px) {
+                    position: absolute;
+                    right: 0;
+                    bottom: 12px;
+                }
+            }
+        }
+    }
+
+    //hotel items list
+    .item-list-wrapper {
+        margin-top: 25px;
+
+        @media only screen and (min-width: 1200px) {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 35px;
+        }
+
+        .item {
+            & + .item {
+                margin-top: 5px;
+            }
+
+            a {
+                .image {
+                    position: relative;
+                    padding-bottom: calc(100% * 1030 / 900);
+                    height: 0;
+                    overflow: hidden;
+
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: -75%;
+                        z-index: 2;
+                        display: block;
+                        content: "";
+                        width: 50%;
+                        height: 100%;
+                        background: -webkit-linear-gradient(
+                            left,
+                            rgba(255, 255, 255, 0) 0%,
+                            rgba(255, 255, 255, 0.3) 100%
+                        );
+                        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+                        -webkit-transform: skewX(-25deg);
+                        transform: skewX(-25deg);
+                    }
+
+                    .price-lable {
+                        font-family: $primary-font;
+                        font-size: 18px;
+                        color: $white;
+                        display: flex;
+                        position: absolute;
+                        padding: 20px;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        text-align: right;
+                        justify-content: flex-end;
+                        line-height: 1;
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+
+                        .price {
+                            font-size: 20px;
+                            font-weight: bold;
+                            margin-left: 5px;
+                        }
+                    }
+
+                    img {
+                    }
+                }
+
+                .content {
+                    padding: 28px 0;
+
+                    .title {
+                        color: $black;
+                        font-size: 20px;
+                        line-height: 1.2;
+                        font-weight: 700;
+                    }
+
+                    .text {
+                        margin-top: 18px;
+                    }
+
+                    .city {
+                        margin-top: 10px;
+                        font-weight: 800;
+                        font-size: 18px;
+                        color: $gold-color;
+                    }
+                }
+
+                &:hover {
+                    .image {
+                        &:before {
+                            -webkit-animation: shine 0.75s;
+                            animation: shine 0.75s;
+                        }
+                    }
+                    .content {
+                        .text {
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
+
+        .left-wrapper {
+            @media only screen and (min-width: 1200px) {
+                flex-basis: 50%;
+                max-width: 50%;
+                padding-right: 10px;
+            }
+
+            @media only screen and (min-width: 1600px) {
+                flex-basis: 40%;
+                max-width: 40%;
+            }
+
+            .items-row {
+            }
+        }
+
+        .right-wrapper {
+            @media only screen and (min-width: 768px) {
+                overflow: hidden;
+                margin-top: 5px;
+            }
+
+            @media only screen and (min-width: 1200px) {
+                flex-basis: 50%;
+                max-width: 50%;
+                padding-left: 10px;
+                margin-top: 0;
+            }
+
+            @media only screen and (min-width: 1600px) {
+                flex-basis: 60%;
+                max-width: 60%;
+            }
+
+            .item a .content {
+                .text {
+                    display: none;
+                }
+                .city {
+                    margin-top: 20px;
+                }
+            }
+
+            .items-row {
+                @media only screen and (min-width: 768px) {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    margin: -15px;
+                }
+
+                @media only screen and (min-width: 1200px) {
+                    margin: -10px;
+                }
+
+                .item {
+                    @media only screen and (min-width: 768px) {
+                        flex-basis: 50%;
+                        max-width: 50%;
+                        padding: 15px;
+                    }
+
+                    @media only screen and (min-width: 1200px) {
+                        padding: 10px;
+                    }
+
+                    @media only screen and (min-width: 1600px) {
+                        flex-basis: 33.333333%;
+                        max-width: 33.333333%;
+                    }
+
+                    & + .item {
+                        @media only screen and (min-width: 768px) {
+                            margin-top: 0;
+                        }
+                    }
+
+                    a {
+                        .content {
+                            @media only screen and (min-width: 768px) {
+                                padding: 28px 0 0;
+                            }
+
+                            @media only screen and (min-width: 1200px) {
+                                padding: 28px 0 15px;
+                            }
+                        }
+                    }
+
+                    &:nth-last-of-type(1),
+                    &:nth-last-of-type(2) {
+                        @media only screen and (min-width: 1200px) {
+                            display: none;
+                        }
+                        @media only screen and (min-width: 1600px) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

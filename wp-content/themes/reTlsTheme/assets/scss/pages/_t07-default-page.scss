@@ -1,0 +1,78 @@
+@import "../components/comp-default-gallery-section";
+
+.ts-default-page{
+
+    ul{
+        padding-left: 18px;
+    }
+    
+    .component-default-gallery-section{
+        margin-top: 55px;
+    }
+
+    .other-content{
+        margin-top: 50px;
+    }
+
+    //form
+    #gdpr{
+        background-color: #f2f2f2;
+        padding: 30px 15px;
+
+        @media only screen and (min-width: 768px) {
+			padding: 62px 50px;
+        }
+            
+        @media only screen and (min-width: 1600px) {
+            padding: 59px 90px;
+        }
+        
+        button:not(:disabled), 
+        [type=button]:not(:disabled), 
+        [type=reset]:not(:disabled), 
+        [type=submit]:not(:disabled)
+        .btn-primary.disabled, 
+        .btn-primary:disabled{
+            display: inline-block;
+            font-size: 17px;
+            line-height: 24px;
+            font-weight: 700;
+            font-family: $primary-font;
+            padding: 12px 44px;
+            border: 2px solid #000;
+            color: $black;
+            margin-left: auto;
+            text-align: center;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            background-color: transparent;
+            border-radius: 0;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            
+            &:hover {
+                background-color: $gold;
+                color: $white;
+                border-color: $gold;
+            }
+        }
+
+        .btn-primary.disabled, 
+        .btn-primary:disabled{
+            background-color: #d6d6d6;
+
+            &:hover {
+                background-color: #d6d6d6;
+                color: $black;
+                border-color: #000;
+            }
+        }
+    
+        [type=reset]:not(:disabled){
+            border-style: dashed;
+        }
+    }
+}

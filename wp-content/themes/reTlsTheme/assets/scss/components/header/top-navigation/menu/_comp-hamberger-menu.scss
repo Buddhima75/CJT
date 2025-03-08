@@ -1,0 +1,108 @@
+@import "comp-hamberger-icon";
+
+/* hamburger menu */
+
+// .menu-toggle {
+//     width: 50px;
+//     height: 38px;
+//     margin: 0;
+//     position: absolute;
+//     cursor: pointer;
+//     right: 15px;
+//     top: 0;
+// }
+
+.mainmenutoggle {
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    position: fixed;
+    cursor: pointer;
+    z-index: 1000;
+    padding: 10px;
+
+    @media only screen and (min-width: 1200px) {
+        position: relative;
+        top: inherit;
+        right: inherit;
+    }
+
+    &.open {
+        top: 3px;
+        right: -3px;
+        @media only screen and (min-width: 768px) {
+            top: 12px;
+            right: 2px;
+        }
+        @media only screen and (min-width: 1200px) {
+            left: 6px;
+            right: auto;
+            top: 20px;
+            position: absolute;
+        }
+        @media only screen and (min-width: 1600px) {
+            left: 6px; 
+            top: 15px; 
+        }
+        .nav-icon span {
+            background: $black;
+            @media only screen and (min-width: 1200px) {
+                background: $black;
+            }
+        }
+
+        .nav-icon span:nth-child(1) {
+            top: 18px;
+            width: 0%;
+            left: 50%;
+        }
+
+        .nav-icon span:nth-child(2) {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        .nav-icon span:nth-child(3) {
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+        .nav-icon span:nth-child(4) {
+            top: 18px;
+            width: 0%;
+            left: 50%;
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .nav-icon {
+            span {
+                background: $black;
+            }
+        }
+    }
+}
+
+/* Small */
+@media only screen and (min-width: 576px) {
+    // .main-menu-container {
+    //     max-width: inherit;
+    //     left: 0;
+    // }
+}
+
+/* Medium - small devices, tablets */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large - medium devices, desktops */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large - large devices, wide screens */
+@media only screen and (min-width: 1200px) {
+}

@@ -1,0 +1,41 @@
+.destination-listing-page{
+	.pg-content{
+		margin-top: 0;
+	}
+	.section-delights{
+		.slider-mb-only{
+			margin-top: 50px;
+			.listing-types-2{
+				display: block;
+				margin-right: -10px;
+				.item{
+					flex: none;
+					max-width: 100%;
+					margin-bottom: 20px;
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	.section-inviting{
+		.slider-mb-only{
+			.listing-types{
+				display: block;
+				.item{
+					flex: none;
+					max-width: 100%;
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	.section-inviting{
+		margin-top: 30px;
+		.slider-mb-only{
+			margin-top: 35px;
+		}
+	}
+}

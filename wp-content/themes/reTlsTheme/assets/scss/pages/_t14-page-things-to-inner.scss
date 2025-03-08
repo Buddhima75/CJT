@@ -1,0 +1,128 @@
+.ts-things-to-do-inner-page {
+	.hotel-offer-slider{
+		margin-top: 20px;
+	}
+	.key-points {
+		margin-top: 40px;
+		margin-bottom: 30px;
+		display: none !important; 
+		@media only screen and (min-width: 768px) {
+			display: flex;
+			justify-content: center;
+		}
+		@media only screen and (min-width: 992px) {
+			margin-top: 45px;
+		}
+		.item {
+			text-align: center;
+			font-size: 15px;
+			color: $gold-2;
+			margin-top: 20px;
+			@media only screen and (min-width: 768px) {
+				margin: 0 40px;
+			}
+			@media only screen and (min-width: 992px) {
+				margin: 0 70px;
+			}
+			.lable {
+			}
+			.text {
+				font-size: 25px;
+				font-weight: bold;
+				color: $gray33;
+				text-transform: uppercase;
+				line-height: 1.6;
+				small {
+					font-size: 15px;
+					color: #999999;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+
+	.image-slider {
+		margin-top: 58px;
+		@media only screen and (min-width: 992px) {
+			margin-top: 53px;
+		}
+		.owl-one-item {
+			.item {
+				.desktop {
+					display: none;
+				}
+				@media only screen and (min-width: 992px) {
+					.desktop {
+						display: block;
+					}
+					.mobile {
+						display: none;
+					}
+				}
+			}
+		}
+
+		.owl-dots {
+			background-image: url("images/owl-dots.png");
+			background-repeat: no-repeat;
+			background-position: center bottom;
+			position: absolute;
+			bottom: -35px;
+			z-index: 10;
+			left: 0;
+			right: 0;
+
+			.owl-dot {
+				opacity: 0;
+			}
+		}
+
+		.ghost-btn {
+			float: right;
+			border: 2px solid $black;
+			margin-top: 30px;
+
+			@media only screen and (min-width: 768px) {
+				margin-top: 30px;
+			}
+
+			&:hover {
+				background-color: $gold;
+				color: $white;
+				border-color: $gold;
+			}
+		}
+	}
+	@media only screen and (min-width: 768px) {
+		/* HOTEL INNER OVERIDING */
+		.related-slider .hotel-offer-slider{
+			margin-top: 40px !important;
+		}
+		/* KEY POINTER OVERIDING */
+		.key-points{
+			margin-top: 60px;
+			margin-bottom: 100px;
+			.item{
+				position: relative;
+				margin-left: 0;
+				margin-right: 0;
+				padding-right: 40px;
+				padding-left: 40px;
+				&::after{
+					width: 1px;
+					height: 50px;
+					background-color: #e1e1e1;
+					position: absolute;
+					right: 0px;
+					top: 7px;
+					content: '';
+				}
+				&:last-child{
+					&::after{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}

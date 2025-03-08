@@ -1,0 +1,63 @@
+.top-navigation {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    // -webkit-transition: background-color 200ms linear;
+    // -ms-transition: background-color 200ms linear;
+    // transition: background-color 200ms linear;
+    //transition: all 0.5s ease; 
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    background-color: transparent;
+
+    &.fixmenu {
+        -webkit-box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+
+        .menu-section .mainmenutoggle {
+            top: 9px;
+
+            @media only screen and (min-width: 1200px) {
+                top: inherit;
+            }
+        }
+
+        .logo-section #branding-text {
+            opacity: 1;
+        }
+
+        .menu-section .nav-icon span {
+            background: $black;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            -webkit-box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.1);
+            padding: 8px 25px;
+
+            .logo-section #branding-text {
+                display: block;
+            }
+            .logo-section #branding {
+                display: none; 
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 25px;
+        background-color: $white;
+    }
+
+    @import "top-navigation/comp-logo-section";
+    @import "top-navigation/comp-special-links-section";
+    @import "top-navigation/comp-menu-section";
+    @import "top-navigation/comp-plan-your-gateway";
+}

@@ -1,0 +1,35 @@
+.ts-tab-02-page{
+	.tab-level-nav{
+		margin-top: 44px;
+		@media only screen and (min-width: 1200px) {
+			margin-top: 38px;
+		}
+	}
+	.section-intro {
+		.text{
+			@media only screen and (min-width: 1200px) {
+				margin-top: 21px;
+			}
+		}
+	}
+	.section-inviting{
+		@media only screen and (min-width: 1200px) {
+			margin-top: 32px;			
+		}
+		.slider-mb-only{
+			@media only screen and (min-width: 1200px) {
+				margin-top: 64px;
+			}
+			.btn-view-all{
+				@media only screen and (min-width: 1200px) {
+					display: block;
+				}
+				.link-type-1{
+					margin-top: 45px;
+				}				
+			}
+		}
+	}
+}
+
+ 

@@ -1,0 +1,122 @@
+//on body
+.component-lines-animation {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    // max-width: 1400px;
+    pointer-events: none;
+    z-index: -1;
+
+    @media (min-width: 768px) {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: auto;
+    }
+
+    @media (min-width: 1200px) {
+        width: 100%;
+        max-width: 91.66666667%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .line {
+        width: 2px;
+        margin: auto;
+        position: absolute;
+        background: rgba(236, 236, 236, 0.25);
+
+        &.line-1 {
+            left: 15px;
+        }
+        &.line-2 {
+            display: none;
+            left: 25%;
+
+            @media only screen and (min-width: 768px) {
+                display: block;
+            }
+        }
+        &.line-3 {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &.line-4 {
+            display: none;
+            right: 25%;
+
+            @media only screen and (min-width: 768px) {
+                display: block;
+            }
+        }
+        &.line-5 {
+            right: 15px;
+        }
+    }
+}
+
+//on footer
+.component-lines-animation-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    // max-width: 1400px;
+    pointer-events: none;
+    z-index: 1;
+
+    @media (min-width: 768px) {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: auto;
+    }
+
+    @media (min-width: 1200px) {
+        width: 100%;
+        max-width: 91.66666667%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .line {
+        width: 1px;
+        margin: auto;
+        position: absolute;
+        // height: calc(100vh - 400px);
+        background: #e2dfe1; 
+
+        &.line-1 {
+            left: 15px;
+        }
+        &.line-2 {
+            display: none;
+            left: 25%;
+
+            @media only screen and (min-width: 768px) {
+                display: block;
+            }
+        }
+        &.line-3 {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &.line-4 {
+            display: none;
+            right: 25%;
+
+            @media only screen and (min-width: 768px) {
+                display: block;
+            }
+        }
+        &.line-5 {
+            right: 15px;
+        }
+    }
+}

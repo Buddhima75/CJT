@@ -1,0 +1,127 @@
+.ts-tab-04-page{
+	@media only screen and (min-width: 1200px) {			
+		background-image: url(images/overview-bg);
+		background-position: right 400px;
+		background-repeat: no-repeat;	
+	}
+	.tab-level-nav{
+		margin-top: 44px;
+		@media only screen and (min-width: 1200px) {
+			margin-top: 38px;
+		}
+	}
+	.section-intro {
+		.text{
+			@media only screen and (min-width: 1200px) {
+				margin-top: 21px;
+			}
+		}
+	}
+	.section-getting-there{
+		margin-top: 54px;
+		@media only screen and (min-width: 768px) {
+			margin-top: 26px;
+		}
+		@media only screen and (min-width: 1200px) {
+			margin-top: 32px;	
+		}
+		.getting-there{
+			margin-top: 37px;
+			@media only screen and (min-width: 992px) {
+				max-width: 1099px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			@media only screen and (min-width: 1200px) {
+				margin-top: 58px;
+			}
+			.title{
+				font-size: 25px;
+				color: $black;
+				font-family: $secondary-font;
+				font-weight: bold;
+				line-height: 1.1;
+				@media only screen and (min-width: 768px) {
+					text-align: center;
+				}
+			}
+			.item-wrap{
+				margin-top: 35px;
+				@media only screen and (min-width: 1200px) {
+					margin-top: 53px;
+				}
+				.item{
+					background-color: #f2f2f2;
+					padding: 20px;
+					@media only screen and (min-width: 768px) {
+						display: flex;
+						padding: 40px;
+						align-items: center;
+					}
+					.icon{
+						@media only screen and (min-width: 768px) {
+							flex-basis: 110px;
+							text-align: center;
+						}
+						svg{
+							fill:$gold-2; 
+						}
+						.svg-car{
+							width: 55px;
+							height: 55px;
+						} 
+						.svg-bus{
+							width: 47px;
+							height: 44px;
+						} 
+						.svg-train{
+							width: 47px;
+							height: 44px;
+						} 
+						.lable{
+							font-size: 16px;
+							text-transform: uppercase;
+							color: $black;
+							font-weight: bold;
+							margin-top: 22px;
+						}
+					}
+					& + .item{
+						margin-top: 20px;
+					}
+					.content{
+						margin-top: 15px; 
+						@media only screen and (min-width: 768px) {
+							flex: 1;
+							margin-top: 0;
+							border-left: 2px solid #dfdfdf;
+							margin-left: 30px;
+							padding-left: 40px;
+						}
+						.title{
+							text-align: left;
+						}
+						.text{
+							margin-top: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.get-direction{
+		position: relative;
+		margin-top: 50px;
+		@media only screen and (min-width: 1200px) {
+			margin-top: 76px;
+		}
+		.gold-btn{
+			position:absolute;
+			right: 20px;
+			bottom: 20px;
+			width: 219px;
+		}
+	}
+}
+

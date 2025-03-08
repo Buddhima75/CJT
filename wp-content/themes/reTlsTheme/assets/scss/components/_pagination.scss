@@ -1,0 +1,113 @@
+$low-gray: $white;
+$border: #ebebeb;
+$hover-pg: #b5985a;
+.section-pagination {
+	display: inline-block;
+	display: flex;
+	justify-content: flex-end;
+	&.second {
+		margin-top: 30px;
+	}
+	.pagination-container {
+		font-size: 0;
+		text-align: center;
+		border: 1px solid $border;
+		border-radius: 4px;
+		overflow: hidden;
+		span {
+			height: 40px;
+			width: 65px;
+			color: #646464;
+			font-size: 15px;
+			line-height: 40px;
+			font-weight: 700;
+			text-transform: uppercase;
+			display: inline-block;
+			vertical-align: top;
+			border: 1px solid $low-gray;
+			&.rgttxt {
+			}
+		}
+		a {
+			height: 40px;
+			width: 40px;
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			color: #000;
+			text-decoration: none;
+			outline: none;
+			-webkit-transition: all 0.4s ease-out;
+			-moz-transition: all 0.4s ease-out;
+			-o-transition: all 0.4s ease-out;
+			transition: all 0.4s ease-out;
+			&:before {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				margin: auto;
+				color: $border;
+				font-size: 8px;
+				line-height: 38px;
+			}
+			&.prev:before {
+				content: "\e90c";
+				position: absolute;
+				font-size: 30px;
+				color: red;
+			}
+			&.nxt:before {
+				content: "\e90d";
+				position: absolute;
+			}
+		}
+		.response-field-dropdown {
+			display: inline-block;
+			vertical-align: top;
+			select {
+				height: 40px !important;
+				padding: 0 4px 0 25px;
+				// border-top: 1px solid $border;
+				// border-bottom: 1px solid $border;
+				color: #646464;
+				font-size: 15px;
+				font-weight: 700;
+				//background: url(images/down-arrow.png) no-repeat right 12px center;
+			}
+			.nice-select {
+				border: none;
+				padding: 0;
+				span.current {
+					padding: 0 20px;
+					width: 67px;
+					border-left: 0;
+					border-right: 0;
+				}
+				&:after {
+					top: 18px;
+					right: 17px;
+				}
+			}
+		}
+		.icon-page-left-arrow {
+			background: url(images/back-arrow-black.png) center no-repeat;
+			border-left: 1px solid $border;
+			border-right: 1px solid $border;
+			border-bottom: 0;
+			&:hover {
+				background: url(images/back-arrow-white.png) $hover-pg center no-repeat;
+			}
+		}
+		.icon-page-right-arrow {
+			border-left: 1px solid $border;
+			border-right: 1px solid $border;
+			border-bottom: 0;
+			background: url(images/next-arrow-black.png) center no-repeat;
+			&:hover {
+				background: url(images/next-arrow-white.png) $hover-pg center no-repeat;
+			}
+		}
+	}
+}

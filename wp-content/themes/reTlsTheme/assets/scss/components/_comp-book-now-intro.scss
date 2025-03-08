@@ -1,0 +1,69 @@
+.comp-book-now-intro{
+	background-color: $gold-2;
+	color: $black;
+	font-size: 20px;
+	text-align: center;
+	padding: 65px 20px 40px;
+	margin-top: 60px;
+	line-height: initial;
+	position:relative;
+	@media only screen and (min-width: 768px) {
+		padding: 60px 60px 42px;
+	}
+	@media only screen and (min-width: 992px) {
+		display: flex;
+		text-align: left;
+		align-items: center;
+	}
+	@media only screen and (min-width: 1200px) {
+		margin-top: 100px;
+		padding:65px 81px 42px;
+	}
+	@media only screen and (min-width: 1600px) {
+		margin-top: 84px;
+		padding:65px 89px 42px;
+	}
+	.text{
+		position: relative;
+		@media only screen and (min-width: 768px) {
+			font-size: 35px;
+		}
+		@media only screen and (min-width: 992px) {
+			width: calc(100% - 210px);
+		}
+		&:before{
+			content: '';
+			position:absolute;
+			top: -20px;
+			left: 0;
+			right: 0;
+			margin: auto; 
+			height: 2px;
+			width: 70px;
+			background-color:$gray33;
+			@media only screen and (min-width: 992px) {
+				right:inherit;
+			}
+		}
+	}
+	.white-btn{
+		margin-top: 35px;
+		width: 168px;
+		@media only screen and (min-width: 768px) {
+			margin-top: 30px;
+		}
+		@media only screen and (min-width: 992px) {
+			margin-top: 0;
+			position: absolute;
+			right: 60px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		@media only screen and (min-width: 1200px) {
+			right: 80px;
+		}
+		@media only screen and (min-width: 1600px) {
+			right: 90px;
+		}
+	}
+}

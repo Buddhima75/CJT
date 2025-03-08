@@ -1,0 +1,97 @@
+.ts-contact-us-page {
+	.contact-us {
+		margin-top: 54px;
+		@media only screen and (min-width: 1200px) {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.image {
+			display: none;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			// padding-bottom: 100%;
+			@media only screen and (min-width: 1200px) {
+				display: block;
+				flex-basis: 420px;
+				// padding-bottom: 80%;
+			}
+
+			@media only screen and (min-width: 1340px) {
+				flex-basis: 520px;
+				// padding-bottom: 80%;
+			}
+		}
+		#contact-us {
+			background-color: #f2f2f2;
+			padding: 30px 15px;
+			.ghost-btn {
+				height: 52px;
+				width: 156px;
+				margin-left: 30px;
+				margin-top: 40px;
+
+				@media only screen and (min-width: 768px) {
+					margin-top: 0;
+				}
+			}
+			@media only screen and (min-width: 768px) {
+				padding: 62px 50px;
+			}
+			@media only screen and (min-width: 1200px) {
+				flex: 1;
+			}
+			@media only screen and (min-width: 1600px) {
+				padding: 59px 90px;
+			}
+
+			button:not(:disabled), 
+			[type=button]:not(:disabled), 
+			[type=reset]:not(:disabled), 
+			[type=submit]:not(:disabled)
+			.btn-primary.disabled, 
+			.btn-primary:disabled{
+				display: inline-block;
+				font-size: 17px;
+				line-height: 24px;
+				font-weight: 700;
+				font-family: $primary-font;
+				padding: 12px 44px;
+				border: 2px solid #000;
+				color: $black;
+				margin-left: auto;
+				text-align: center;
+				-webkit-transition: all 0.3s;
+				-moz-transition: all 0.3s;
+				-o-transition: all 0.3s;
+				transition: all 0.3s;
+				text-transform: uppercase;
+				background-color: transparent;
+				border-radius: 0;
+				margin-right: 10px;
+				margin-bottom: 10px;
+				
+				&:hover {
+					background-color: $gold;
+					color: $white;
+					border-color: $gold;
+				}
+			}
+
+			.btn-primary.disabled, 
+			.btn-primary:disabled{
+				background-color: #d6d6d6;
+
+				&:hover {
+					background-color: #d6d6d6;
+					color: $black;
+					border-color: #000;
+				}
+			}
+		
+			[type=reset]:not(:disabled){
+				border-style: dashed;
+			}
+		}
+	}
+}

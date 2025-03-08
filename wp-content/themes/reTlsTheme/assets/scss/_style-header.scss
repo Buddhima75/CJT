@@ -1,0 +1,60 @@
+
+@import "variables";
+@import "partials/fonts";
+@import "./vendors/bootstrap";
+@import "./vendors/slider-menu-jquery";
+@import "./vendors/owl-carousel";
+@import "./vendors/fancybox-3";
+
+
+@import "./partials/mixins";
+@import "./partials/keyframes";
+@import "./partials/base";
+@import "./partials/links-buttons";
+@import "./partials/typography";
+@import "./partials/forms";
+@import "./partials/layout";
+//components
+
+@import "./components/header/comp-top-navigation";//top-navigation
+@import "./components/header/comp-main-banner-intro-home";// main banner, intro , why website
+@import "./components/header/comp-inner-banner-destination";// banner destination inner page
+@import "./components/header/comp-inner-banner";// banner inner pages
+@import "./components/component-line-animation";// vertical lines animation
+@import "./components/component-page-intro";// intro types
+
+header{
+    z-index: 100;
+    position: relative;
+}
+
+
+
+
+
+/* ––––––––––– media Queries ––––––––––– */
+/* custom, iphone retina */
+
+@media only screen and (min-width: 320px) {
+}
+
+/* extra small devices, phones */
+
+@media only screen and (min-width: 480px) {
+}
+
+/* small devices, tablets */
+
+@media only screen and (min-width: 768px) {
+    /* menu max width */
+}
+
+/* medium devices, desktops */
+
+@media only screen and (min-width: 992px) {
+}
+
+/* large devices, wide screens */
+
+@media only screen and (min-width: 1200px) {
+}

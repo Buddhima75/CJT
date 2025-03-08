@@ -1,0 +1,30 @@
+$theme-color: #da311b;
+
+//colors
+$white: #ffffff;
+$black: #000000;
+$black-2: #16151a;
+$blue-1: #bcf0e8;
+$yellow-1: #d2d429;
+$gold: #a78c55;
+$gold-2: #b5985a;
+$gray-1: #666666;
+$gray-2: #656565;
+$gray-3: #646464;
+$gray33: #333333;
+
+//fonts
+$primary-font: 'Nunito', sans-serif;
+$secondary-font: 'Ubuntu', sans-serif;
+
+//Main menu colors
+$menu-bg-color: $white;
+$menu-text-color: $black;
+$font-menu: $primary-font;
+$menu-active-color: $gold;
+$menu-hover-color: $gold;
+
+
+$pdx125: "only screen and (-webkit-min-device-pixel-ratio: 1.25)";
+$pdx150: "only screen and (-webkit-min-device-pixel-ratio: 1.5)";
+$pdx175: "only screen and (-webkit-min-device-pixel-ratio: 1.75)";

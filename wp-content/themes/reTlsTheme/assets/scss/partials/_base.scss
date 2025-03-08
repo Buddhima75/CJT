@@ -1,0 +1,145 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    /* ie scrollbar overlap issue fix */
+    -ms-overflow-style: scrollbar;
+}
+
+body {
+    font-family: $primary-font, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: $black;
+    background-color: $white;
+
+    // @media only screen and (-webkit-min-device-pixel-ratio: 1.25){
+    //     font-size: calc(21px/1.25);
+    // }
+
+    // @media only screen and (-webkit-min-device-pixel-ratio: 1.5){
+    //     font-size: calc(21px/1.5);
+    // }
+
+    // @media only screen and (-webkit-min-device-pixel-ratio: 1.75){
+    //     font-size: calc(21px/1.75);
+    // }
+
+    // @media #{$pdx125} {
+    //     font-size: px(18px, 1.25);
+    // }
+
+    // @media #{$pdx150} {
+    //     font-size: px(18px, 1.5);
+    // }
+
+    // @media #{$pdx175} {
+    //     font-size: px(18px, 1.75);
+    // }
+}
+
+main {
+    @media only screen and (min-width: 1200px) {
+        padding-top: 100px;
+    }
+}
+
+.banner + main{
+    @media only screen and (min-width: 1200px) {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .container.page-container {
+        width: 750px;
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container.page-container {
+        width: 970px;
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container.page-container {
+        // width: 1170px;
+        // max-width: 1170px;
+        width: auto;
+        max-width: none;
+        padding: 0 60px; 
+    }
+}
+
+@media (min-width: 1400px) {
+    .container.page-container{   
+        width: auto;
+        max-width: none;
+        padding: 0 70px; 
+    }
+}
+
+@media (min-width: 1600px) {
+    .container.page-container {
+        padding: 0;  
+        max-width: 1450px;
+    }
+}
+
+// @media (min-width: 1800px) {
+//     .container.page-container {
+//         width: 100%;
+//         max-width: 1600px;
+//     }
+// }
+
+// @media (min-width: 1900px) {
+//     .container.page-container {
+//         width: 100%;
+//         max-width: 1700px;
+//     }
+// }
+
+img{
+    max-width: 100%;
+
+    &:before {
+        display: block;
+        content: "";
+    }
+}
+
+// img{
+//     display: block;
+//     max-width: 100%;
+//     height: auto;
+//     position: relative;
+
+//     &:before{
+//         padding-top: calc(100% * 1120/ 800);
+//     }
+// }
+
+
+//highlight color
+::selection {
+    color: $white;
+    background-color: $gold;
+}
+::-moz-selection {
+    color: $white;
+    background-color: $gold;
+}
+
+//page inner container
+.page-inner-wrapper{
+    @media (min-width: 768px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    @media (min-width: 1200px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,79 @@
+
+.photo-credit{
+	margin-top: 30px;
+	@media only screen and (min-width: 768px) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.item{
+		margin-top: 30px;
+		@media only screen and (min-width: 768px) {
+			width: 50%;
+			padding: 0 25px;
+		}
+		@media only screen and (min-width: 1200px) {
+			width: 33.33%; 
+		}
+		a{
+			display: block;
+			border: 1px solid #f2f2f2; 
+			.logo-wrap{ 
+				text-align: center;
+				min-height: 180px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin: 20px 0;
+			}
+			.content{ 
+				background-color: #f2f2f2; 
+				padding: 35px 40px 40px;
+				position: relative; 
+				position: relative;
+				text-align: center;
+				@media only screen and (min-width: 768px) { 
+					min-height: 120px;
+					position: relative;
+				}
+				.hotel_name{
+					color: $black;
+					font-size: 20px;
+					line-height: 1.2;
+					font-weight: bold;
+					@media only screen and (min-width: 768px) { 
+						position: absolute;
+						top: 50%;
+						transform: translateY(-50%);
+						left: 40px;
+						right: 40px;
+						margin: 0 auto; 
+					}
+				}
+			}
+			.hotel_description{
+				margin-top: 20px;
+				color: #333;
+				font-size: 18px;
+				line-height: 1.5;
+				@media only screen and (min-width: 768px) { 
+					min-height: 150px;
+				}
+				@media only screen and (min-width: 1200px) { 
+					min-height: 100px;
+				}
+			}
+			.link-type-1{
+				margin-top: 20px;
+				display: inline-block;
+				display: none;
+				@media only screen and (min-width: 768px) {
+					display: none;
+					margin-top: 0;
+					position: absolute;
+					bottom: 30px;
+					left: 40px;
+				}
+			}
+		}
+	}
+}
