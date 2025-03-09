@@ -10,7 +10,7 @@
 <!--<![endif]-->
 
 <head>
-   <title> General Tours in Sri Lanka | Ceylon Jay Travels
+   <title> Wildlife Tours in Sri Lanka | Ceylon Jay Travels
    </title>
    <meta name="description" content="Visit Colombo, Sri Lanka, a city with amazing restaurants, luxury hotels, busy streets and buzzing nightlife at some top Explore that suit any type of traveler.
                " />
@@ -201,10 +201,10 @@
             <div class="dynamic-overlay" style="opacity: 0.7;"></div>
             <div class="right-image mobile">
                <div class="right-img-mobile"
-                  style="background-image:url('http://localhost/cjd/images/tours/h1.webp')">
+                  style="background-image:url('http://localhost/cjd/images/tours/h5.jpg')">
                </div>
                <div class="right-img-ipad"
-                  style="background-image:url('http://localhost/cjd/images/tours/h1.webp')">
+                  style="background-image:url('http://localhost/cjd/images/tours/h5.jpg')">
                </div>
                <div class="mobile-logo">
                   <a href="http://localhost/cjd" id="branding-white" title="Ceylon Jay Travels"
@@ -215,7 +215,7 @@
                </div>
             </div>
             <div class="right-image desktop">
-                <div class="right-img-desktop" style="background-image:url('http://localhost/cjd/images/tours/h1.webp')">
+                <div class="right-img-desktop" style="background-image:url('http://localhost/cjd/images/tours/h5.jpg')">
                </div>
             </div>
          </div>
@@ -223,12 +223,7 @@
    </div>
 
    <style>
-      .hero-banner {
-         position: relative;
-         height: 100vh;
-         overflow: hidden;
-         background-color: #000;
-      }
+      
 
       .parallax-container {
          position: relative;
@@ -540,29 +535,29 @@
                                  <div id="imageCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
                                     <div class="carousel-inner">
                                        <div class="carousel-item active">
-                                          <div class="position-relative">
-                                             <img src="http://localhost/cjd/images/tours/dm.jpg" class="d-block w-100" alt="Ceylon Jay Travels Logo 1">
+                                       <div class="position-relative">
+                                             <img src="http://localhost/cjd/images/tours/1.jpg" class="d-block w-100" alt="Ceylon Jay Travels Logo 2">
                                              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                                <h2>Dambulla</h2>
-                                                <a href="https://en.wikipedia.org/wiki/Dambulla" class="btn"> Click Here </a>
+                                                <h2>Sigiriya</h2>
+                                                <a href="https://en.wikipedia.org/wiki/Sigiriya" class="btn"> Click Here </a>
                                              </div>
                                           </div>
                                        </div>
                                        <div class="carousel-item">
                                           <div class="position-relative">
-                                             <img src="http://localhost/cjd/images/tours/30.jpg" class="d-block w-100" alt="Ceylon Jay Travels Logo 2">
+                                             <img src="http://localhost/cjd/images/tours/hab.webp" class="d-block w-100" alt="Ceylon Jay Travels Logo 2">
                                              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                                <h2>The Temple Of The Tooth Relic</h2>
-                                                <a href="https://sridaladamaligawa.lk/" class="btn"> Click Here </a>
+                                                <h2>Habarana</h2>
+                                                <a href="https://en.wikipedia.org/wiki/Habarana" class="btn"> Click Here </a>
                                              </div>
                                           </div>
                                        </div>
                                        <div class="carousel-item">
                                           <div class="position-relative">
-                                             <img src="http://localhost/cjd/images/tours/rm.jpg" class="d-block w-100" alt="Ceylon Jay Travels Logo 3">
+                                             <img src="http://localhost/cjd/images/tours/wil.jpg" class="d-block w-100" alt="Ceylon Jay Travels Logo 3">
                                              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                                <h2>Ramboda</h2>
-                                                <a href="https://en.wikipedia.org/wiki/Ramboda_Falls" class="btn"> Click Here </a>
+                                                <h2>Wilpattu</h2>
+                                                <a href="https://en.wikipedia.org/wiki/Wilpattu_National_Park" class="btn"> Click Here </a>
                                              </div>
                                           </div>
                                        </div>
@@ -591,7 +586,7 @@
                                  <h4>Covering Places & Distance</h4>
 
                                  <p class="text-muted">
-                                    ✔️&nbsp; Dambulla, Kandy, Nuwara eliya, Yala & Benthota.
+                                    ✔️&nbsp; Dambulla, Sigiriya, Kandy, Udawalawa, Wilpattu & Yala
                                  </p>
 
                                  <p class="text-muted">
@@ -600,7 +595,8 @@
                                  <hr>
                                  <h4>Best Time to Visit</h4>
                                  <p class="text-muted">
-                                    ✔️&nbsp; Throughout the year.
+                                    ✔️&nbsp; Most of tourist are select march to august to travel these places. because the climate in Sri Lanka.
+
                                  </p>
                                  <hr>
                                  <h4>People & Vehicles</h4>
@@ -624,9 +620,9 @@
                               <!-- Main Image -->
                               <div class="col-12 mb-2">
                                  <div class="image-container msz">
-                                    <img id="mainImage" src="http://localhost/cjd/images/tours/3.jpg"
+                                    <img id="mainImage" src="http://localhost/cjd/images/tours/156.jpg"
                                        alt="Gallery image 1">
-                                    <div class="overlay-text" id="mainImageText">Sigiriya</div>
+                                    <div class="overlay-text" id="mainImageText">Yala Safari</div>
 
                                  </div>
                               </div>
@@ -634,28 +630,28 @@
                               <!-- Thumbnails (Click to Change Main Image) -->
                               <div class="col-3 mt-1">
                                  <div class="image-container sz" onclick="changeImage(this)">
-                                    <img src="http://localhost/cjd/images/tours/3.jpg"
-                                       data-text="Sigiriya" alt="Gallery image 1">
+                                    <img src="http://localhost/cjd/images/tours/156.jpg"
+                                       data-text="Yala Safari" alt="Gallery image 1">
                                  </div>
                               </div>
                               <div class="col-3 mt-1">
                                  <div class="image-container sz" onclick="changeImage(this)">
-                                    <img src="http://localhost/cjd/images/tours/65.jpg"
-                                       data-text="Royal Botanical Gardens" alt="Gallery image 1">
-                                 </div>
-                              </div>
-
-                              <div class="col-3 mt-1">
-                                 <div class="image-container sz" onclick="changeImage(this)">
-                                    <img src="http://localhost/cjd/images/tours/118.webp"
-                                       data-text="Nine Arch Bridge" alt="Gallery image 2">
+                                    <img src="http://localhost/cjd/images/tours/wil.jpg"
+                                       data-text="Wilpattu" alt="Gallery image 1">
                                  </div>
                               </div>
 
                               <div class="col-3 mt-1">
                                  <div class="image-container sz" onclick="changeImage(this)">
-                                    <img src="http://localhost/cjd/images/tours/30.jpg"
-                                       data-text="The Temple Of The Tooth Relic" alt="Gallery image 3">
+                                    <img src="http://localhost/cjd/images/tours/kau.webp"
+                                       data-text="Kaudulla National Park" alt="Gallery image 2">
+                                 </div>
+                              </div>
+
+                              <div class="col-3 mt-1">
+                                 <div class="image-container sz" onclick="changeImage(this)">
+                                    <img src="http://localhost/cjd/images/tours/1.jpg"
+                                       data-text="Sigiriya" alt="Gallery image 3">
                                  </div>
                               </div>
 
@@ -903,18 +899,18 @@
                               </div>
                               <div class="hotel-image">
                                  <div class="hotel-number">2 Day</div>
-                                 <img src="http://localhost/cjd/images/tours/dm.jpg" alt="Ocean View">
-                                 <div class="hotel-title">Habarana or Dambulla</div>
+                                 <img src="http://localhost/cjd/images/tours/3.jpg" alt="Ocean View">
+                                 <div class="hotel-title">Sigiriya</div>
                               </div>
                               <div class="hotel-image">
                                  <div class="hotel-number">3 Day</div>
-                                 <img src="http://localhost/cjd/images/tours/1.jpg" alt="Mountain Resort">
-                                 <div class="hotel-title">Habarana or Dambulla</div>
+                                 <img src="http://localhost/cjd/images/tours/ne.jpg" alt="Mountain Resort">
+                                 <div class="hotel-title">Nuwara Eliya</div>
                               </div>
                               <div class="hotel-image">
                                  <div class="hotel-number">4 Day</div>
-                                 <img src="http://localhost/cjd/images/tours/30.jpg" alt="City Hotel">
-                                 <div class="hotel-title">Kandy</div>
+                                 <img src="http://localhost/cjd/images/tours/ne.jpg" alt="City Hotel">
+                                 <div class="hotel-title">Nuwara Eliya</div>
                               </div>
                               <div class="hotel-image">
                                  <div class="hotel-number">8 Day</div>
@@ -923,18 +919,18 @@
                               </div>
                               <div class="hotel-image">
                                  <div class="hotel-number">7 Day</div>
-                                 <img src="http://localhost/cjd/images/tours/bentota.jpg" alt="Boutique Hotel">
-                                 <div class="hotel-title">Bentota</div>
+                                 <img src="http://localhost/cjd/images/tours/43.jpg" alt="Boutique Hotel">
+                                 <div class="hotel-title">Colombo</div>
                               </div>
                               <div class="hotel-image">
                                  <div class="hotel-number">6 Day</div>
                                  <img src="http://localhost/cjd/images/tours/7.jpg" alt="Heritage Hotel">
-                                 <div class="hotel-title">Thissamaharama or Yala</div>
+                                 <div class="hotel-title"> Yala</div>
                               </div>
                               <div class="hotel-image">
                                  <div class="hotel-number">5 Day</div>
-                                 <img src="http://localhost/cjd/images/tours/ne.jpg" alt="Beach Resort">
-                                 <div class="hotel-title">Nuwara Eliya</div>
+                                 <img src="http://localhost/cjd/images/tours/thi.jpg" alt="Beach Resort">
+                                 <div class="hotel-title">Thissamaharama </div>
                               </div>
 
 
@@ -960,28 +956,28 @@
                         <div class="carousel-inner">
                            <!-- Single item -->
                            <div class="carousel-item active">
-                              <img src="http://localhost/cjd/images/accommodation/hk.webp" class="d-block w-100 op1" alt="First Slide">
+                              <img src="http://localhost/cjd/images/accommodation/sg.webp" class="d-block w-100 op1" alt="First Slide">
                               <div class="carousel-caption d-none d-md-block">
-                                 <h1>Heritance Kandalama</h1>
-                                 <a href="https://www.heritancehotels.com/kandalama/" class="btn">Click Here</a>
+                                 <h1>Shangri-La</h1>
+                                 <a href="https://www.shangri-la.com/colombo/shangrila/" class="btn">Click Here</a>
                               </div>
                            </div>
 
                            <!-- Single item -->
                            <div class="carousel-item">
-                              <img src="http://localhost/cjd/images/tours/yala.jpg" class="d-block w-100 op1" alt="Second Slide">
+                              <img src="http://localhost/cjd/images/accommodation/hs.jpg" class="d-block w-100 op1" alt="Second Slide">
                               <div class="carousel-caption d-none d-md-block">
-                                 <h1>Jetwing Yala</h1>
-                                 <a href="https://www.jetwinghotels.com/jetwingyala/#gref" class="btn">Click Here</a>
+                                 <h1>Hotel Sigiriya</h1>
+                                 <a href="https://www.brownshotels.com/hotelsigiriya/" class="btn">Click Here</a>
                               </div>
                            </div>
 
                            <!-- Single item -->
                            <div class="carousel-item">
-                              <img src="http://localhost/cjd/images/tours/awa.avif" class="d-block w-100 op1" alt="Third Slide">
+                              <img src="http://localhost/cjd/images/tours/tea.jpg" class="d-block w-100 op1" alt="Third Slide">
                               <div class="carousel-caption d-none d-md-block">
-                                 <h1>Avani Bentota Resort</h1>
-                                 <a href="https://www.avanihotels.com/en/kalutara?utm_source=GoogleMyBusiness&utm_medium=GMB&utm_term=Bentota&utm_content=Home&utm_campaign=Google_GMB" class="btn">Click Here</a>
+                                 <h1>Heritance Tea Factory</h1>
+                                 <a href="https://www.heritancehotels.com/tea-factory/" class="btn">Click Here</a>
                               </div>
                            </div>
                         </div>

@@ -10,7 +10,7 @@
 <!--<![endif]-->
 
 <head>
-   <title>Ceylon Highlights Tours
+   <title> Ceylon Highlights Tours in Sri Lanka | Ceylon Jay Travels
    </title>
    <meta name="description" content="Visit Colombo, Sri Lanka, a city with amazing restaurants, luxury hotels, busy streets and buzzing nightlife at some top Explore that suit any type of traveler.
                " />
@@ -191,26 +191,32 @@
 
    ?>
    <!-- / header -->
-   <div class="hero-banner">
-      <div class="parallax-container">
-         <div class="parallax-bg" style="background-image: url('http://localhost/cjd/images/tours/156.jpg')"></div>
-         <div class="overlay-gradient"></div>
-
-         <div class="banner-content">
-            <div class="animated-title">
-               <div class="text-top">
-                  <div>
-                     <span>Discover</span>
-                     <span>Sri Lanka</span>
-                  </div>
+   <div class="banner destination">
+      <div class="banner-inner-wrapper">
+         <div class="left-image-wrapper">
+            <div class="left-img-desktop" style="background-image:url('http://localhost/cjd/wp-content/themes/reTlsTheme/assets/images/inner-header-bg.png')">
+            </div>
+         </div>
+         <div class="right-image-wrapper">
+            <div class="dynamic-overlay" style="opacity: 0.7;"></div>
+            <div class="right-image mobile">
+               <div class="right-img-mobile"
+                  style="background-image:url('http://localhost/cjd/images/tours/118.jpg')">
                </div>
-               <div class="text-bottom">
-                  <div>Experience the Paradise</div>
+               <div class="right-img-ipad"
+                  style="background-image:url('http://localhost/cjd/images/tours/118.jpg')">
+               </div>
+               <div class="mobile-logo">
+                  <a href="http://localhost/cjd" id="branding-white" title="Ceylon Jay Travels"
+                     style="display: inline-block; padding: 15px 0;">
+                     <img src="http://localhost/cjd/images/logo/logo.png" alt="Ceylon Jay Travels"
+                        title="Ceylon Jay Travels">
+                  </a>
                </div>
             </div>
-            <div class="scroll-indicator">
-               <span>Scroll to explore</span>
-               <i class="fas fa-chevron-down"></i>
+            <div class="right-image desktop">
+               <div class="right-img-desktop" style="background-image:url('http://localhost/cjd/images/tours/118.jpg')">
+               </div>
             </div>
          </div>
       </div>
@@ -255,7 +261,7 @@
          height: 100%;
          background: linear-gradient(to bottom,
                rgba(0, 0, 0, 0.4),
-               rgba(0, 145, 36, 0.5));
+               rgba(0, 0, 0, 0.5));
          opacity: 0.8;
          transition: opacity 0.3s ease;
          z-index: 2;
@@ -527,6 +533,7 @@
                         </div>
                         <h1 class="text-center"> Tour Overview</h1>
                         <br><br>
+
                         <div class="container">
                            <div class="row">
                               <div class="col-md-6 text-center text-md-left align-items-center">
@@ -562,7 +569,6 @@
                                        </div>
                                        <div class="carousel-item">
                                           <div class="position-relative">
-                                             <img src="http://localhost/cjd/images/tours/156.jpg" class="d-block w-100" alt="Ceylon Jay Travels Logo 4">
                                              <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                                 <h2>Yala</h2>
                                                 <a href="https://en.wikipedia.org/wiki/Yala_National_Park" class="btn"> Click Here </a>
@@ -883,7 +889,8 @@
                               }
                            }
                         </style>
-
+                        <h1>Tour Iteanries</h1>
+                        <h4>We are always ready to customize tours for you according to your requirement. Please contact us for more information. </h4>
                         <div class="eight-section-container">
                            <div class="number-eight">8</div>
                            <div class="eight-days-text">8 Days </div>
@@ -1327,10 +1334,11 @@
 
       #imageCarousel .carousel-item img {
          transition: transform 0.3s ease;
+         opacity: 0.5;
       }
 
       #imageCarousel .carousel-caption {
-         background: rgba(0, 145, 36, 0.8);
+
          bottom: 0;
          left: 0;
          right: 0;
@@ -1370,7 +1378,7 @@
       #imageCarousel .carousel-control-next {
          width: 50px;
          height: 50px;
-         background: rgba(0, 145, 36, 0.8);
+         border: 2px solid white;
          border-radius: 50%;
          top: 50%;
          transform: translateY(-50%);

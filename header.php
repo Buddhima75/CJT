@@ -31,21 +31,19 @@
                         <option onclick="window.location.href='http://localhost/cjd/tours/general'"style="cursor: pointer; padding: 20px; background-color: white;" 
                             onmouseover="this.style.backgroundColor='#f0f0f0'" 
                             onmouseout="this.style.backgroundColor='white'" ">General</onclick=></option>
-                        <option onclick="window.location.href='http://localhost/cjd/tours/general'"style="cursor: pointer; padding: 20px; background-color: white;" 
+                        <option onclick="window.location.href='http://localhost/cjd/tours/wildlife'"style="cursor: pointer; padding: 20px; background-color: white;" 
                             onmouseover="this.style.backgroundColor='#f0f0f0'" 
                             onmouseout="this.style.backgroundColor='white'" ">Wildlife</a></option>
-                        <option onclick="window.location.href='http://localhost/cjd/tours/general'"style="cursor: pointer; padding: 20px; background-color: white;" 
+                        <option onclick="window.location.href='http://localhost/cjd/tours/adventure'"style="cursor: pointer; padding: 20px; background-color: white;" 
                             onmouseover="this.style.backgroundColor='#f0f0f0'" 
                             onmouseout="this.style.backgroundColor='white'" ">Adventure</a></option>
-                        <option onclick="window.location.href='http://localhost/cjd/tours/general'"style="cursor: pointer; padding: 20px; background-color: white;" 
+                        <option onclick="window.location.href='http://localhost/cjd/tours/cultural'"style="cursor: pointer; padding: 20px; background-color: white;" 
                             onmouseover="this.style.backgroundColor='#f0f0f0'" 
                             onmouseout="this.style.backgroundColor='white'" ">Cultural</a></option>
-                        <option onclick="window.location.href='http://localhost/cjd/tours/general'"style="cursor: pointer; padding: 20px; background-color: white;" 
+                        <option onclick="window.location.href='http://localhost/cjd/tours/budget'"style="cursor: pointer; padding: 20px; background-color: white;" 
                             onmouseover="this.style.backgroundColor='#f0f0f0'" 
                             onmouseout="this.style.backgroundColor='white'" ">Budget</a></option>
-                        <option onclick="window.location.href='http://localhost/cjd/tours/general'"style="cursor: pointer; padding: 20px; background-color: white;" 
-                            onmouseover="this.style.backgroundColor='#f0f0f0'" 
-                            onmouseout="this.style.backgroundColor='white'" ">Tailor Made</a></option>
+                       
                         
                     </ul>
                 </li>
