@@ -10,7 +10,7 @@
 <!--<![endif]-->
 
 <head>
-    <title> Visit Anuradhapura Sri Lanka | Travel Guide of Anuradhapura | Truly Sri Lanka
+    <title> Transportation & Vehicles
     </title>
     <meta name="description" content="Visit Colombo, Sri Lanka, a city with amazing restaurants, luxury hotels, busy streets and buzzing nightlife at some top Explore that suit any type of traveler.
                " />
@@ -20,7 +20,7 @@
     <meta property="og:description" content="" />
     <meta property="og:image" content="" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Truly Sri Lanka" />
+    <meta property="og:site_name" content="Ceylon Jay Travels" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://localhost/cjd/wp-content/themes/reTlsTheme/favicon.ico"
         type="image/x-icon" />
@@ -112,12 +112,14 @@
 
     ?>
     <!-- / header -->
+
     <div class="banner destination">
         <div class="banner-inner-wrapper">
             <div class="left-image-wrapper">
-                <div class="left-img-desktop" style="background-image:url('')">
+                <div class="left-img-desktop" style="background-image:url('http://localhost/cjd/wp-content/themes/reTlsTheme/assets/images/inner-header-bg.png')">
                 </div>
             </div>
+
             <div class="right-image-wrapper">
                 <div class="dynamic-overlay" style="opacity: 0.7;"></div>
                 <div class="right-image mobile">
@@ -128,10 +130,10 @@
                         style="background-image:url('../images/vehicle/vehi.png')">
                     </div>
                     <div class="mobile-logo">
-                        <a href="http://localhost/cjd" id="branding-white" title="Truly Sri Lanka"
+                        <a href="http://localhost/cjd" id="branding-white" title="Ceylon Jay Travels"
                             style="display: inline-block; padding: 15px 0;">
-                            <img src="../images/logo/logo.png" alt="Truly Sri Lanka"
-                                title="Truly Sri Lanka">
+                            <img src="../images/logo/logo.png" alt="Ceylon Jay Travels"
+                                title="Ceylon Jay Travels">
                         </a>
                     </div>
                 </div>
@@ -186,20 +188,20 @@
                                         <div class="title">World of Cars​</div>
                                         <h4>Take a peek inside our Wonderworld</h4>
                                         <!-- content -->
-                                       
+
                                         <div class="slider">
                                             <div class="owl-overview owl-carousel">
                                                 <div class="item">
-                                                    <img class="img-fluid" src="../images/vehicle/audi1.jpg" alt="">
+                                                    <img class="img-fluid" src="../images/vehicle/audi1.png" alt="">
                                                 </div>
                                                 <div class="item">
                                                     <img class="img-fluid" src="../images/vehicle/bens1.jpeg" alt="">
                                                 </div>
                                                 <div class="item">
-                                                    <img class="img-fluid" src="../images/vehicle/ax1.jpg" alt="">
+                                                    <img class="img-fluid" src="../images/vehicle/ax1.png" alt="">
                                                 </div>
                                                 <div class="item">
-                                                    <img class="img-fluid" src="../images/vehicle/pre.JPG" alt="">
+                                                    <img class="img-fluid" src="../images/vehicle/pre.png" alt="">
                                                 </div>
 
                                             </div>
@@ -213,27 +215,33 @@
                                     </div>
                                     <!-- right side map -->
                                     <div class="right-map">
-                                        <img class="img-fluid1 " src="../images/leisure/wat.png" alt="">
+                                        <img class="img-fluid1 " src="../images/vehicle/v2.png" alt="">
                                     </div>
                                 </div>
                                 <div class="section-overview">
                                     <div class="right-map">
-                                        <img class="img-fluid" src="../images/leisure/avt.png" alt="">
+                                        <img class="img-fluid" src="../images/vehicle/v3.png" alt="">
                                     </div>
                                     <!-- left side content -->
                                     <div class="left-content">
-                                        <div class="title">ATV Bike Racing ​</div>
+                                        <div class="title">World Of Vans ​</div>
+                                        <h4>Take a peek inside our Wonderworld</h4>
                                         <!-- content -->
                                         <div class="cont">
-                                            <p>An all-terrain vehicle, also known as a light utility vehicle, a quad bike, or simply a quad, is a vehicle that travels on low-pressure tires. The designated off-road area is a specially made thrilling track to satisfy the quench of the adrenaline junkies out there. Most of the activities are based in Ella in Sri Lanka.</p>
+                                            <p class="text-muted">Many of the world’s leading van models are used in our mode of transport for your convenience.</p>
+                                            <p class="text-muted">We are also pleased to inform you that you can reserve the van of your choice for your special needs or special requests.</p>
+                                            <p class="text-muted">We guarantee that you will be able to reach a more comfortable destination as we regularly insure all vehicles with insurance coverage, quality control, and vehicle comfort and cleanliness.</p>
                                         </div>
                                         <div class="slider">
                                             <div class="owl-overview owl-carousel">
                                                 <div class="item">
-                                                    <img class="img-fluid" src="../images/leisure/at.webp" alt="">
+                                                    <img class="img-fluid" src="../images/vehicle/van1.jpg" alt="">
                                                 </div>
                                                 <div class="item">
-                                                    <img class="img-fluid" src="../images/leisure/at1.jpg" alt="">
+                                                    <img class="img-fluid" src="../images/vehicle/van4.png" alt="">
+                                                </div>
+                                                <div class="item">
+                                                    <img class="img-fluid" src="../images/vehicle/van3.png" alt="">
                                                 </div>
 
                                             </div>
@@ -245,64 +253,47 @@
                                 <div class="section-overview">
                                     <!-- left side content -->
                                     <div class="left-content">
-                                        <div class="title">White Water Rafting​</div>
+                                        <div class="title">World Of Buses​</div>
+                                        <h4>Take a peek inside our Wonderworld</h4>
                                         <!-- content -->
                                         <div class="cont">
-                                            <p>Jet Ski racing is a water sport similar to powerboat racing. The sport is mostly practiced at a recreational level in several countries around the world. Riding a personal watercraft engages several different muscle groups, making it a great way to exercise and keep in shape. Also, Jet skiing is a fun and exciting water activity. Most of the activities are based in Trincomalee in Sri Lanka. </p>
+                                            <p class="text-muted">Many of the world’s leading bus models are used in our mode of transport for your convenience.</p>
+                                            <p class="text-muted">We are also pleased to inform you that you can reserve the bus of your choice for your special needs or special requests.</p>
+                                            <p class="text-muted">We guarantee that you will be able to reach a more comfortable destination as we regularly insure all vehicles with insurance coverage, quality control, and vehicle comfort and cleanliness.</p>
                                         </div>
                                         <div class="slider">
                                             <div class="owl-overview owl-carousel">
                                                 <div class="item">
-                                                    <img class="img-fluid" src="../images/leisure/je.jpg" alt="">
+                                                    <img class="img-fluid" src="../images/vehicle/bu.avif" alt="">
                                                 </div>
                                                 <div class="item">
-                                                    <img class="img-fluid" src="../images/leisure/je1.jpg" alt="">
+                                                    <img class="img-fluid" src="../images/vehicle/bu1.jpeg" alt="">
                                                 </div>
-
+                                                <div class="item">
+                                                    <img class="img-fluid" src="../images/vehicle/bu2.png" alt="">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <!-- right side map -->
                                     <div class="right-map">
-                                        <img class="img-fluid1" src="../images/leisure/jet.png" alt="">
+                                        <img class="img-fluid1" src="../images/vehicle/v4.png" alt="">
                                     </div>
                                 </div>
 
-                                <div class="section-overview">
-                                    <div class="right-map">
-                                        <img class="img-fluid" src="../images/leisure/zip.png" alt="">
-                                    </div>
-                                    <!-- left side content -->
-                                    <div class="left-content">
-                                        <div class="title">Flying Ravana (Zip Line) ​</div>
-                                        <!-- content -->
-                                        <div class="cont">
-                                            <p>Flying Ravana Adventure park is one of a kind experience available in Sri Lanka. The two-wire zip-line stretches for more than half a kilometer, slides at 80kmph, and offers a bird’s-eye view of the beautiful hills of the island. The adventure park is exclusively designed for adventure enthusiasts and adrenaline junkies.</p>
-                                        </div>
-                                        <div class="slider">
-                                            <div class="owl-overview owl-carousel">
-                                                <div class="item">
-                                                    <img class="img-fluid" src="../images/leisure/zi.jpg" alt="">
-                                                </div>
-                                                <div class="item">
-                                                    <img class="img-fluid" src="../images/leisure/zi1.jpg" alt="">
-                                                </div>
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Attractions -->
-                                    <!-- Things to do -->
+                                <!-- Attractions -->
+                                <!-- Things to do -->
 
-                                    <!-- Culinary Delights -->
-                                </div>
-                                <!-- /.page-inner-wrapper -->
+                                <!-- Culinary Delights -->
                             </div>
-                            <!-- /.col -->
+                            <!-- /.page-inner-wrapper -->
                         </div>
-                        <!-- /.row -->
+                        <!-- /.col -->
                     </div>
+                    <!-- /.row -->
                 </div>
+            </div>
     </main>
     <script type='text/javascript' src='http://localhost/cjd/wp-includes/js/wp-embed.min.js?ver=5.4.9'></script>
     <?php

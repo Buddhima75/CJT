@@ -11,7 +11,7 @@
 
 <head>
 
-    <title>Places to Visit in Sri Lanka | Explore | Truly Sri Lanka
+    <title>Places to Visit in Sri Lanka | Explore | Ceylon Jay Travels
     </title>
     <meta name="description" content="Our destinations highlight the best places to visit in Sri Lanka, starting from the ancient rock fortress of Sigiriya, all the way to the white sandy beaches of Hikkaduwa.
 " />
@@ -21,7 +21,7 @@
     <meta property="og:description" content="" />
     <meta property="og:image" content="" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Truly Sri Lanka" />
+    <meta property="og:site_name" content="Ceylon Jay Travels" />
 
 
     <!-- Favicon -->
@@ -34,50 +34,50 @@
     <!--GTM Code-->
     <!-- Google Tag Manager -->
     <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-K3C2DNQ');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K3C2DNQ');
     </script>
     <!-- End Google Tag Manager -->
 
 
     <style>
-    /*Destination page color changes*/
+        /*Destination page color changes*/
 
 
-    .line-title:before {
-        content: "";
-        background: #000;
-    }
-
-    .apply-color,
-    .tab-level-nav .shareparent .left-navbar ul .active a {
-        color: #000 !important;
-    }
-
-    @media only screen and (min-width: 1200px) {
-
-        .tab-level-nav .shareparent .left-navbar ul .active a:before,
-        .tab-level-nav .shareparent .left-navbar ul .active a:after {
-            background-color: #000 !important;
+        .line-title:before {
+            content: "";
+            background: #000;
         }
 
-        .tab-level-nav .shareparent .left-navbar ul li a:hover,
-        .tab-level-nav .shareparent .left-navbar ul li a:focus {
+        .apply-color,
+        .tab-level-nav .shareparent .left-navbar ul .active a {
             color: #000 !important;
         }
-    }
+
+        @media only screen and (min-width: 1200px) {
+
+            .tab-level-nav .shareparent .left-navbar ul .active a:before,
+            .tab-level-nav .shareparent .left-navbar ul .active a:after {
+                background-color: #000 !important;
+            }
+
+            .tab-level-nav .shareparent .left-navbar ul li a:hover,
+            .tab-level-nav .shareparent .left-navbar ul li a:focus {
+                color: #000 !important;
+            }
+        }
     </style>
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap" rel="stylesheet">
@@ -102,7 +102,7 @@
     </script>
     <link rel="canonical" href="http://localhost/cjd/destinations.html" />
     <script type="text/javascript">
-    var ajaxurl = "http://localhost/cjd/wp-admin/admin-ajax.php";
+        var ajaxurl = "http://localhost/cjd/wp-admin/admin-ajax.php";
     </script>
 </head>
 
@@ -125,8 +125,8 @@
 
 
     <?php
-        include "./header.php";
-    
+    include "./header.php";
+
     ?>
     <!-- / header -->
     <div class="banner innerpage">
@@ -145,9 +145,9 @@
                     </div>
 
                     <div class="mobile-logo">
-                        <a href="http://localhost/cjd" id="branding-white" title="Truly Sri Lanka"
+                        <a href="http://localhost/cjd" id="branding-white" title="Ceylon Jay Travels"
                             style="display: inline-block; padding: 15px 0;">
-                            <img src="./images/logo/logo.png" alt="Truly Sri Lanka" title="Truly Sri Lanka">
+                            <img src="./images/logo/logo.png" alt="Ceylon Jay Travels" title="Ceylon Jay Travels">
                         </a>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
 
                                 <div class="title-main-wrapper">
 
-                                    <div class="line-title"> Tambapanni360 Places </div>
+                                    <div class="line-title"> Places </div>
                                     <h1 class="main-title">
                                         Explore </h1>
                                 </div>
@@ -190,7 +190,7 @@
                                                     <div class="content">
                                                         <div class="title">Colombo</div>
                                                         <div class="text">The vibrant metropolis of Colombo, Sri Lanka,
-                                                              is a tropical haven with a rich colonial history.....</div>
+                                                            is a tropical haven with a rich colonial history.....</div>
                                                         <a href="http://localhost/cjd/location/colombo.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
@@ -292,7 +292,7 @@
                                                 </div>
                                                 <div class="item">
                                                     <div class="image"
-                                                        style= "background-image: url(./images/NuwaraEliya.webp)">
+                                                        style="background-image: url(./images/NuwaraEliya.webp)">
                                                     </div>
                                                     <div class="content">
                                                         <div class="title">Nuwara Eliya</div>
@@ -377,56 +377,56 @@
                                         <div class="slider-mb-only">
                                             <div class="listing-types">
                                                 <div class="item">
-                                                   
-                                                        <div class="image">
-                                                            <img src="./images/12.webp" alt="" class="img-fluid">
-                                                        </div>
-                                                        <div class="content">
-                                                            <!-- 65 max character -->
-                                                            <div class="title">Anuradhapura</div>
-                                                            <!-- 70 max character  -->
-                                                            <div class="text">Anuradhapura, a UNESCO World Heritage Site, is one of Sri Lanka’s most significant cultural and historical destinations.....</div>
-                                                            <a href="http://localhost/cjd/location/anuradhapura.php"
-                                                                class="link-type-1" title="Read More">Find out
-                                                                More</a>
-                                                        </div>
-                                                  <!-- /.item-inner -->
-                                                </div>
-                                                <div class="item">
-                                                    
-                                                        <div class="image">
-                                                            <img src="./images/3.jpg" alt="" class="img-fluid">
-                                                        </div>
-                                                        <div class="content">
-                                                            <!-- 65 max character -->
-                                                            <div class="title">Sigiriya</div>
-                                                            <!-- 70 max character  -->
-                                                            <div class="text">Sigiriya, also known as Lion Rock, is one of Sri Lanka’s most famous landmarks and a UNESCO World Heritage Site.....
 
-
-                                                            </div>
-                                                            <a href="http://localhost/cjd/location/sigiriya.php"
-                                                                class="link-type-1" title="Read More">Find out
-                                                                More</a>
-                                                        </div>
+                                                    <div class="image">
+                                                        <img src="./images/12.webp" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="content">
+                                                        <!-- 65 max character -->
+                                                        <div class="title">Anuradhapura</div>
+                                                        <!-- 70 max character  -->
+                                                        <div class="text">Anuradhapura, a UNESCO World Heritage Site, is one of Sri Lanka’s most significant cultural and historical destinations.....</div>
+                                                        <a href="http://localhost/cjd/location/anuradhapura.php"
+                                                            class="link-type-1" title="Read More">Find out
+                                                            More</a>
+                                                    </div>
                                                     <!-- /.item-inner -->
                                                 </div>
                                                 <div class="item">
-                                                   
-                                                        <div class="image">
-                                                            <img src="./images/bentota.jpg" alt="" class="img-fluid">
+
+                                                    <div class="image">
+                                                        <img src="./images/3.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="content">
+                                                        <!-- 65 max character -->
+                                                        <div class="title">Sigiriya</div>
+                                                        <!-- 70 max character  -->
+                                                        <div class="text">Sigiriya, also known as Lion Rock, is one of Sri Lanka’s most famous landmarks and a UNESCO World Heritage Site.....
+
+
                                                         </div>
-                                                        <div class="content">
-                                                            <!-- 65 max character -->
-                                                            <div class="title">Bentota</div>
-                                                            <!-- 70 max character  -->
-                                                            <div class="text">Bentota, a beautiful coastal town on Sri Lanka’s southwest coast, is famous for its golden sandy beaches, turquoise waters, and thrilling water sports.....
-                                                            </div>
-                                                            <a href="http://localhost/cjd/location/bentota.php"
-                                                                class="link-type-1" title="Read More">Find out
-                                                                More</a>
+                                                        <a href="http://localhost/cjd/location/sigiriya.php"
+                                                            class="link-type-1" title="Read More">Find out
+                                                            More</a>
+                                                    </div>
+                                                    <!-- /.item-inner -->
+                                                </div>
+                                                <div class="item">
+
+                                                    <div class="image">
+                                                        <img src="./images/bentota.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="content">
+                                                        <!-- 65 max character -->
+                                                        <div class="title">Bentota</div>
+                                                        <!-- 70 max character  -->
+                                                        <div class="text">Bentota, a beautiful coastal town on Sri Lanka’s southwest coast, is famous for its golden sandy beaches, turquoise waters, and thrilling water sports.....
                                                         </div>
-                                                   <!-- /.item-inner -->
+                                                        <a href="http://localhost/cjd/location/bentota.php"
+                                                            class="link-type-1" title="Read More">Find out
+                                                            More</a>
+                                                    </div>
+                                                    <!-- /.item-inner -->
                                                 </div>
                                             </div>
                                         </div>
@@ -445,8 +445,8 @@
     <script type='text/javascript' src='http://localhost/cjd/wp-includes/js/wp-embed.min.js?ver=5.4.9'>
     </script>
     <?php
-        include "./footer.php";
-    
+    include "./footer.php";
+
     ?>
     <!-- model share -->
 
@@ -454,14 +454,14 @@
     <script defer src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
 
     <script>
-    //set view height
-    var vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', vh + 'px');
-
-    window.addEventListener('resize', function() {
+        //set view height
         var vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', vh + 'px');
-    }, true);
+
+        window.addEventListener('resize', function() {
+            var vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', vh + 'px');
+        }, true);
     </script>
 
     <script defer
@@ -488,9 +488,9 @@
         <symbol id="svg-icon-fb" viewBox="0 0 7.88 14.91">
             <defs>
                 <style>
-                .fb-1 {
-                    fill-rule: evenodd
-                }
+                    .fb-1 {
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="fb-1"
@@ -508,9 +508,9 @@
         <symbol id="svg-icon-twitter" viewBox="0 0 17.5 14.91">
             <defs>
                 <style>
-                .twitter-1 {
-                    fill-rule: evenodd
-                }
+                    .twitter-1 {
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="twitter-1"
@@ -524,9 +524,9 @@
         <symbol id="svg-icon-youtube" viewBox="0 0 13.13 15.78">
             <defs>
                 <style>
-                .youtube-1 {
-                    fill-rule: evenodd
-                }
+                    .youtube-1 {
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="youtube-1"
@@ -546,10 +546,10 @@
         <symbol id="svg-icon-instafeed" viewBox="0 0 78 78">
             <defs>
                 <style>
-                .cls-instafeed-2 {
-                    fill: #d8d3d3;
-                    fill-rule: evenodd;
-                }
+                    .cls-instafeed-2 {
+                        fill: #d8d3d3;
+                        fill-rule: evenodd;
+                    }
                 </style>
             </defs>
             <path id="instafeed-icon.svg" class="cls-instafeed-2"
@@ -559,9 +559,9 @@
         <symbol id="svg-arrow-right" viewBox="0 0 12 22">
             <defs>
                 <style>
-                .arrow-right {
-                    fill-rule: evenodd;
-                }
+                    .arrow-right {
+                        fill-rule: evenodd;
+                    }
                 </style>
             </defs>
             <path id="svg-arrow-right.svg" class="arrow-right"
@@ -577,9 +577,9 @@
         <symbol id="svg-arrow-left" viewBox="0 0 12 22">
             <defs>
                 <style>
-                .arrow-left {
-                    fill-rule: evenodd;
-                }
+                    .arrow-left {
+                        fill-rule: evenodd;
+                    }
                 </style>
             </defs>
             <path id="svg-arrow-left.svg" class="arrow-left"
@@ -595,10 +595,10 @@
         <symbol id="svg-icon-chat" viewBox="0 0 17.16 17">
             <defs>
                 <style>
-                .chat {
-                    fill: #fff;
-                    fill-rule: evenodd
-                }
+                    .chat {
+                        fill: #fff;
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="bubble_icon"
@@ -608,10 +608,10 @@
         <symbol id="svg-icon-heart" viewBox="0 0 18.88 17">
             <defs>
                 <style>
-                .heart {
-                    fill: #fff;
-                    fill-rule: evenodd
-                }
+                    .heart {
+                        fill: #fff;
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="Forma_3" d="M843.423 959.994c-18.388-10.1-5.089-22.651 0-14.2 5.09-8.451 18.39 4.106 0 14.2z"
@@ -657,13 +657,13 @@
         <symbol id="svg-email" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -683,17 +683,17 @@
         <symbol id="tropical-land" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
 
-                .cls-3 {
-                    fill: #b5985a
-                }
+                    .cls-3 {
+                        fill: #b5985a
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -714,17 +714,17 @@
         <symbol id="island-hospitality" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
 
-                .cls-3 {
-                    fill: #b5985a
-                }
+                    .cls-3 {
+                        fill: #b5985a
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -742,17 +742,17 @@
         <symbol id="lonely-planet" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
 
-                .cls-3 {
-                    fill: #b5985a
-                }
+                    .cls-3 {
+                        fill: #b5985a
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -775,22 +775,22 @@
 
     </svg>
     <script>
-    $(document).ready(function() {
-        $('form[id="ftr_newsltr"]').validate({
-            rules: {
-                param_email: {
-                    required: true,
-                    email: true,
+        $(document).ready(function() {
+            $('form[id="ftr_newsltr"]').validate({
+                rules: {
+                    param_email: {
+                        required: true,
+                        email: true,
+                    },
                 },
-            },
-            messages: {
-                param_email: 'Enter a valid email',
-            },
-            submitHandler: function(form) {
-                form.submit();
-            }
+                messages: {
+                    param_email: 'Enter a valid email',
+                },
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
         });
-    });
     </script>
 
 </body>

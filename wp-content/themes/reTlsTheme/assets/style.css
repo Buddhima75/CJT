@@ -12897,7 +12897,7 @@ dd {
 }
 
 .top-navigation .logo-section #branding img {
-    width: 50%
+    width: 25%
     
 }
 
@@ -23718,4 +23718,7 @@ hr.style-two {
 .ce{
     text-align: center;
     color: #000 !important;
+}
+.imma{
+    width: 100% !important;
 }

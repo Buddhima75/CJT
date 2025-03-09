@@ -11,7 +11,7 @@
 
 <head>
 
-    <title>Travel to Sri Lanka | Truly Sri Lanka | Travel Guides, Tips and Weather
+    <title>Travel to Sri Lanka | Ceylon Jay Travels | Travel Guides, Tips and Weather
 
     </title>
     <meta name="description" content="Travel to Sri Lanka and experience the wonders of the Pearl of the Indian Ocean, boasting wonderous historic sites and warm hospitality for the perfect vacation.
@@ -22,7 +22,7 @@
     <meta property="og:description" content="" />
     <meta property="og:image" content="" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Truly Sri Lanka" />
+    <meta property="og:site_name" content="Ceylon Jay Travels" />
 
 
     <!-- Favicon -->
@@ -46,49 +46,50 @@
     <!--GTM Code-->
     <!-- Google Tag Manager -->
     <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-K3C2DNQ');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K3C2DNQ');
+        // 
     </script>
     <!-- End Google Tag Manager -->
 
 
     <style>
-    /*Destination page color changes*/
+        /*Destination page color changes*/
 
-    .line-title:before {
-        content: "";
-        background: #000;
-    }
-
-    .apply-color,
-    .tab-level-nav .shareparent .left-navbar ul .active a {
-        color: #000 !important;
-    }
-
-    @media only screen and (min-width: 1200px) {
-
-        .tab-level-nav .shareparent .left-navbar ul .active a:before,
-        .tab-level-nav .shareparent .left-navbar ul .active a:after {
-            background-color: #000 !important;
+        .line-title:before {
+            content: "";
+            background: #000;
         }
 
-        .tab-level-nav .shareparent .left-navbar ul li a:hover,
-        .tab-level-nav .shareparent .left-navbar ul li a:focus {
+        .apply-color,
+        .tab-level-nav .shareparent .left-navbar ul .active a {
             color: #000 !important;
         }
-    }
+
+        @media only screen and (min-width: 1200px) {
+
+            .tab-level-nav .shareparent .left-navbar ul .active a:before,
+            .tab-level-nav .shareparent .left-navbar ul .active a:after {
+                background-color: #000 !important;
+            }
+
+            .tab-level-nav .shareparent .left-navbar ul li a:hover,
+            .tab-level-nav .shareparent .left-navbar ul li a:focus {
+                color: #000 !important;
+            }
+        }
     </style>
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap" rel="stylesheet">
@@ -113,7 +114,7 @@
     </script>
     <link rel="canonical" href="http://localhost/cjd/" />
     <script type="text/javascript">
-    var ajaxurl = "http://localhost/cjd/wp-admin/admin-ajax.php";
+        var ajaxurl = "http://localhost/cjd/wp-admin/admin-ajax.php";
     </script>
 </head>
 
@@ -136,8 +137,8 @@
 
 
     <?php
-        include "./header.php";
-    
+    include "./header.php";
+
     ?>
     <!-- / header -->
     <div class="banner homepage">
@@ -151,9 +152,9 @@
                     </div>
 
                     <div class="mobile-logo">
-                        <a href="http://localhost/cjd" id="branding-white" title="Truly Sri Lanka"
+                        <a href="http://localhost/cjd" id="branding-white" title="Ceylon Jay Travels"
                             style="display: inline-block; padding: 15px 0;">
-                            <img src="./images/logo/logo.png" alt="Truly Sri Lanka" title="Truly Sri Lanka">
+                            <img src="./images/logo/logo.png" alt="Ceylon Jay Travels" title="Ceylon Jay Travels">
                         </a>
                     </div>
 
@@ -267,7 +268,7 @@
 
                 <div class="right-bottom-inner-wrapper">
                     <div class="component-why-truly-srilanka">
-                        
+
                         <p>See the country’s stunning landscapes, endless white sand beaches and sprawling national parks from a trustworthy local’s perspective Follow a newly hatched sea turtle’s journey to the sea on the interminable white-sand beaches of the south coast, get a soaring “eagle”-eye view of the spectacular ancient Sigiriya rock fortress, watch the world’s most giant elephants travel in their home in the sprawling Udawalawe National Park, and witness doves waking with the vibrant sunrise over Colombo. Sri Lanka is more than just a destination, it’s a feeling. So feel it as much as you can.</p>
                         <!-- /.items-wrapper -->
                     </div>
@@ -290,7 +291,7 @@
                             </div>
                             <div class="description-link-wrapper">
                                 <div class="description-wrapper">
-                                Ayubowan. Warmly welcome to Sri Lanka. Now you have entered the magical land of the Indian Ocean also known as the pearl of the Indian ocean. Fabulous nature, glorious historical places, and delicious Sri Lankan cuisine make your travel remarkable forever. So let us start to explore Ceylon the fulfill your traveling enthusiasm. </div>
+                                    Ayubowan. Warmly welcome to Sri Lanka. Now you have entered the magical land of the Indian Ocean also known as the pearl of the Indian ocean. Fabulous nature, glorious historical places, and delicious Sri Lankan cuisine make your travel remarkable forever. So let us start to explore Ceylon the fulfill your traveling enthusiasm. </div>
 
 
                                 <div class="link-wrapper">
@@ -322,18 +323,18 @@
                             </div>
                             <!-- /.home-authentic-experience-slider-wrapper -->
                             <div class="description-link-wrapper">
-                                <div class="description-wrapper">
+                                <!-- <div class="description-wrapper">
                                     Arriving at this dream destination will leave you with excitement knowing that there
                                     are experiences ahead that are unique just to Sri Lanka. Right from your very first
                                     step on the island, you’ll be greeted with a gust of inviting warm weather. Once
                                     you’ve
                                     hit the road, the sense of adventure will fill the air. You’ll be able to experience
                                     the call of the wild, the gentle caress of nature and indulge yourself in Ceylon’s
-                                    rich culture. </div>
+                                    rich culture. </div> -->
 
 
                                 <div class="link-wrapper">
-                                    <a href="http://localhost/cjd/srilanka-attractions.html"
+                                    <a href="http://localhost/cjd/destination.php"
                                         class="link-type-1"> Find Out More</a>
                                 </div>
                             </div>
@@ -349,13 +350,13 @@
                         <div class="col-md-8 col-xl-11 mx-auto">
                             <div class="section-inner-wrapper">
 
-                                <?php 
-							     include './location.php';
-							  ?>
+                                <?php
+                                include './location.php';
+                                ?>
                                 <!-- /.left-wrapper -->
                                 <div class="right-wrapper">
                                     <div class="section-title-wrapper">
-                                        <div class="line-title">  </div>
+                                        <div class="line-title"> </div>
                                         <h2 class="home-section-title">Diverse Explore</h2>
                                     </div>
                                     <!-- /.title -->
@@ -696,25 +697,7 @@
                 </div>
             </div>
             <div class="section-home-things-to-explore">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-10 col-xl-11 mx-auto">
-                            <div class="section-inner-wrapper top-title-wrapper">
-                                <div class="section-title-wrapper">
-                                    <div class="line-title"> TRULY </div>
-                                    <h2 class="home-section-title"> Wonderful Things to Explore in Sri Lanka </h2>
-                                </div>
-                                <div class="description-link-wrapper">
-                                    <div class="link-wrapper">
-                                        <a href="./destination.php" class="link-type-1">
-                                        View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.section-inner-wrapper -->
-                        </div>
-                    </div>
-                </div>
+
 
                 <div class="grid-items-section">
 
@@ -895,7 +878,7 @@
                                     <div class="no-flex">
                                         <div class="section-inner-wrapper inner-title-wrapper">
                                             <div class="section-title-wrapper">
-                                                <div class="line-title">  </div>
+                                                <div class="line-title"> </div>
                                                 <h2 class="home-section-title"> Wonderful Things to Explore in Sri Lanka
                                                 </h2>
                                             </div>
@@ -938,18 +921,15 @@
                             <div class="section-inner-wrapper">
                                 <div class="no-flex top-title-section">
                                     <div class="section-title-wrapper">
-                                        <div class="line-title"> TRULY </div>
+                                        <div class="line-title"> </div>
                                         <h2 class="home-section-title"> Inviting Escapes </h2>
                                     </div>
                                     <div class="description-link-wrapper">
                                         <div class="description-wrapper">
-                                            Since you’ve often heard travellers speak of Sri Lanka’s warm hospitality,
-                                            it’s time to experience it yourself! Hotels and resorts are in all the best
-                                            nooks and cranny of the island and offer some the best amenities for the
-                                            ultimate holiday stay. </div>
+                                            Since travelers often rave about Sri Lanka’s warm hospitality, why not experience it for yourself? With hotels and resorts nestled in the island’s most scenic spots, you’ll enjoy top-tier amenities for the perfect holiday getaway. </div>
                                         <!-- max char - 150-->
                                         <div class="link-wrapper">
-                                            <a href="http://localhost/cjd/hotels.html" class="link-type-1">
+                                            <a href="http://localhost/cjd/accommodation/" class="link-type-1">
                                                 View All </a>
                                         </div>
                                     </div>
@@ -958,24 +938,20 @@
                                     <div class="left-wrapper">
                                         <div class="items-row">
                                             <div class="item">
-                                                <a href="https://vouchers.themeresorts.com/product-category/aliya_resorts/"
+                                                <a href="https://www.oakrayhotels.com/"
                                                     target="_blank">
                                                     <div class="image">
-                                                        <div class="price-lable">Starting From
-                                                            <div class="price"> LKR 16200</div>
-                                                        </div>
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/Aliya-feat-home-2.jpg"
-                                                            alt="" class="img-fluid">
+
+                                                        <img src="./images/accommodation/or1.png"
+                                                            alt="" class="img-fluid imma">
                                                     </div>
                                                     <div class="content">
                                                         <!-- 65 max character -->
-                                                        <div class="title"> Aliya Resort & Spa Sigiriya </div>
+                                                        <div class="title"> Oak Ray Hotels </div>
                                                         <!-- 112 max character  -->
-                                                        <div class="text"> Nestled among the lush greenery of rolling
-                                                            fields, decades-old indigenous trees and chena growth of the
-                                                            dry zone of the Central Province</div>
+                                                        <div class="text"> Oak Ray Hotels is a well-known hospitality brand in Sri Lanka, offering a range of luxury hotels, resorts, and boutique stays across the country. Whether you're looking for a serene retreat in the hills, a beachside escape, or a cultural experience, Oak Ray Hotels provides high-quality service and modern comforts with a touch of Sri Lankan charm</div>
 
-                                                        <div class="city">Sigiriya</div>
+                                                        <div class="city">Ramboda</div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -987,18 +963,51 @@
 
                                         <div class="items-row">
                                             <div class="item">
-                                                <a href="https://www.heritancehotels.com/kandalama/" target="_blank">
+                                                <a href="https://web.facebook.com/RoyalRiverResortbyTrioResorts/?_rdc=1&_rdr#" target="_blank">
                                                     <div class="image">
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/Heritance-Kanfdalama-900x1030-1.jpg"
-                                                            alt="" class="img-fluid">
+                                                        <img src="./images/accommodation/kp1.png"
+                                                            alt="" class="img-fluid imma">
                                                     </div>
                                                     <div class="content">
                                                         <!-- 65 max character -->
-                                                        <div class="title"> Heritance Kandalama </div>
+                                                        <div class="title"> Kithulgala Plantation Hotel </div>
                                                         <!-- 112 max character  -->
-                                                        <div class="text"> A tranquil retreat perched on hills,
-                                                            Heritance Kandalama offers panoramic views of the Sigiriya
-                                                            Rocks, boasting a spectacular architecture</div>
+
+
+                                                        <div class="city">Kithulgala</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- /.item -->
+                                            <div class="item">
+                                                <a
+                                                    href="https://www.cinnamonhotels.com/cinnamon-red-colombo">
+                                                    <div class="image">
+                                                        <img src="./images/accommodation/cr1.jpg"
+                                                            alt="" class="img-fluid imma">
+                                                    </div>
+                                                    <div class="content">
+                                                        <!-- 65 max character -->
+                                                        <div class="title"> Cenoman Red Colombo</div>
+                                                        <!-- 112 max character  -->
+
+
+                                                        <div class="city">Colombo</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- /.item -->
+                                            <div class="item">
+                                                <a href="https://www.brownshotels.com/hotelsigiriya/"
+                                                    target="_blank">
+                                                    <div class="image">
+                                                        <img src="./images/accommodation/hs1.png"
+                                                            alt="" class="img-fluid imma">
+                                                    </div>
+                                                    <div class="content">
+                                                        <!-- 65 max character -->
+                                                        <div class="title">Hotel Sigiriya</div>
+                                                        <!-- 112 max character  -->
 
                                                         <div class="city">Sigiriya</div>
                                                     </div>
@@ -1006,107 +1015,55 @@
                                             </div>
                                             <!-- /.item -->
                                             <div class="item">
-                                                <a
-                                                    href="http://localhost/cjd/destinations/ella/hotels/98-acres-resort-spa.html">
+                                                <a href="https://web.facebook.com/PeacockreachhotelSrilanka/?_rdc=1&_rdr#" target="_blank">
                                                     <div class="image">
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/98-acres.jpg"
-                                                            alt="" class="img-fluid">
+                                                        <img src="./images/accommodation/pr1.png"
+                                                            alt="" class="img-fluid imma">
                                                     </div>
                                                     <div class="content">
                                                         <!-- 65 max character -->
-                                                        <div class="title"> 98 ACRES RESORT & SPA </div>
+                                                        <div class="title"> Peacock Reach Hotel </div>
                                                         <!-- 112 max character  -->
-                                                        <div class="text"> Set amidst stunning mountains, 98 Acres
-                                                            Resort & Spa is one of the most distinct Ella hotels
-                                                            offering a charming getaway full of romance & adventure.
-                                                        </div>
 
-                                                        <div class="city">Ella</div>
+
+
+                                                        <div class="city">Mahasenpura</div>
                                                     </div>
                                                 </a>
                                             </div>
                                             <!-- /.item -->
                                             <div class="item">
-                                                <a href="https://www.cinnamonhotels.com/cinnamonbentotabeach"
+                                                <a href="https://www.bluewavearugambay.com/"
                                                     target="_blank">
                                                     <div class="image">
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/bentota-cinnamon-800-800-sdfg.jpg"
-                                                            alt="" class="img-fluid">
+
+                                                        <img src="./images/accommodation/bl1.png"
+                                                            alt="" class="img-fluid imma">
                                                     </div>
                                                     <div class="content">
                                                         <!-- 65 max character -->
-                                                        <div class="title"> Cinnamon Bentota Beach </div>
+                                                        <div class="title"> The Blue Wave Hotel And Spa </div>
                                                         <!-- 112 max character  -->
-                                                        <div class="text"> Nestled along the mesmerizing Indian Ocean
-                                                            and overlooking stretches of palm-fringed beaches and a
-                                                            winding river, Cinnamon Bentota Beach is the ultimate
-                                                            tropical getaway</div>
 
-                                                        <div class="city">Bentota</div>
+
+                                                        <div class="city">Arugam Bay</div>
                                                     </div>
                                                 </a>
                                             </div>
                                             <!-- /.item -->
                                             <div class="item">
-                                                <a href="https://www.amayaresorts.com/amayahills/" target="_blank">
+                                                <a href="https://www.cinnamonhotels.com/cinnamon-lakeside-colombo" target="_blank">
                                                     <div class="image">
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/Amaya-Hills-900-1030-feat.jpg"
-                                                            alt="" class="img-fluid">
+                                                        <img src="./images/accommodation/cl1.png"
+                                                            alt="" class="img-fluid imma">
                                                     </div>
                                                     <div class="content">
                                                         <!-- 65 max character -->
-                                                        <div class="title"> Amaya Hills Kandy Sri Lanka </div>
+                                                        <div class="title"> Cinnamon Lake Colombo </div>
                                                         <!-- 112 max character  -->
-                                                        <div class="text"> Setting the benchmark for stunning hotels in
-                                                            Kandy with breathtaking, verdant views of the surrounding
-                                                            mountains and the city. <br />
-                                                        </div>
 
-                                                        <div class="city">Kandy</div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <!-- /.item -->
-                                            <div class="item">
-                                                <a href="https://vouchers.revealthecollection.com/product-category/fifty-lighthouse-street/"
-                                                    target="_blank">
-                                                    <div class="image">
-                                                        <div class="price-lable">Starting From
-                                                            <div class="price"> LKR 9900</div>
-                                                        </div>
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/lighthouse.jpg"
-                                                            alt="" class="img-fluid">
-                                                    </div>
-                                                    <div class="content">
-                                                        <!-- 65 max character -->
-                                                        <div class="title"> Fifty Lighthouse Street </div>
-                                                        <!-- 112 max character  -->
-                                                        <div class="text"> Nestled within the historic ramparts of an
-                                                            old, living fort, stroll through cobblestone streets and
-                                                            find Fifty Lighthouse set in a refurbished, colonial
-                                                            building on Lighthouse Street.<br />
-                                                        </div>
 
-                                                        <div class="city">Galle</div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <!-- /.item -->
-                                            <div class="item">
-                                                <a href="https://www.ugaescapes.com/ulagalla/" target="_blank">
-                                                    <div class="image">
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/ulagalla-feat-1.jpg"
-                                                            alt="" class="img-fluid">
-                                                    </div>
-                                                    <div class="content">
-                                                        <!-- 65 max character -->
-                                                        <div class="title"> Ulagalla by Uga Escapes </div>
-                                                        <!-- 112 max character  -->
-                                                        <div class="text"> A boutique hotel with a touch of traditional
-                                                            elegance and aristocracy offers you a unique experience of
-                                                            luxury amidst a natural and uninhibited environment.</div>
-
-                                                        <div class="city">Anuradhapura</div>
+                                                        <div class="city">Colombo</div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -1122,109 +1079,22 @@
                     </div>
                 </div>
             </div>
-            <div class="section-home-offers">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-10 col-xl-11 mx-auto">
-                            <div class="section-inner-wrapper">
-                                <div class="no-flex top-title-section">
-                                    <div class="section-title-wrapper">
-                                        <div class="line-title"> Book Now </div>
-                                        <h2 class="home-section-title"> Stay Later </h2>
-                                    </div>
-                                    <div class="description-link-wrapper">
-                                        <div class="description-wrapper">
-                                            On the lookout for the best holiday deals in Sri Lanka? Have a look at what
-                                            some of the star hotels on the Island are offering on their special offer
-                                            packages for this holiday season. </div>
-                                        <!-- max char - 210-->
-                                        <div class="link-wrapper">
-                                            <a href="http://localhost/cjd/special-offers.html"
-                                                class="link-type-1"> View All </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item-list-wrapper">
 
-                                    <div class="items-row">
-                                        <div class="item">
-                                            <a href="https://vouchers.serendibleisure.com/" target="_blank">
-                                                <div class="image">
-                                                    <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/serendib-vouchers.jpg"
-                                                        alt="" class="img-fluid">
-                                                </div>
-                                                <div class="content">
-                                                    <!-- 65 max character -->
-                                                    <div class="title">
-                                                        Serendib Leisure </div>
-                                                    <!-- 70 max character  -->
-                                                    <div class="text">Exclusive deals and benefits<br /> with Serendib
-                                                        Leisure and Reveal the Collection</div>
-                                                    <span class="link-type-1" title="Book Now">Book Now</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!-- /.item -->
-                                        <div class="item">
-                                            <a href="https://vouchers.ekhohotels.com/" target="_blank">
-                                                <div class="image">
-                                                    <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/echo-hotels.jpg"
-                                                        alt="" class="img-fluid">
-                                                </div>
-                                                <div class="content">
-                                                    <!-- 65 max character -->
-                                                    <div class="title">
-                                                        EKHO Hotels </div>
-                                                    <!-- 70 max character  -->
-                                                    <div class="text">Discover EKHO Hotels & Resorts. Reserve Now, Stay
-                                                        Later</div>
-                                                    <span class="link-type-1" title="Book Now">Book Now</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!-- /.item -->
-                                        <div class="item">
-                                            <a href="https://vouchers.asialeisure.lk" target="_blank">
-                                                <div class="image">
-                                                    <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/asia-leisure.jpg"
-                                                        alt="" class="img-fluid">
-                                                </div>
-                                                <div class="content">
-                                                    <!-- 65 max character -->
-                                                    <div class="title">
-                                                        Asia Leisure Hotels </div>
-                                                    <!-- 70 max character  -->
-                                                    <div class="text">Book Early and<br /> Double Your Value</div>
-                                                    <span class="link-type-1" title="Book Now">Book Now</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!-- /.item -->
-                                    </div>
-                                </div>
-                                <!-- /.item-list-wrapper -->
-                            </div>
-                            <!-- /.section-inner-wrapper -->
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="section-home-tropical-paradise">
                 <div class="mobile-image lazyBackground"
-                    data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/tropical-paradise-mob.jpg">
+                    data-imgsrc="./123.gif">
                     <div class="image-inner-content">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-10 col-xl-11 mx-auto">
                                     <div class="section-inner-wrapper">
                                         <div class="section-title-wrapper">
-                                            <div class="line-title"> TRULY </div>
-                                            <h2 class="home-section-title"> A Tropical Paradise</h2>
+                                            <div class="line-title"> </div>
+                                            <h2 class="home-section-title"> The Jewel of the Indian Ocean </h2>
                                         </div>
                                         <div class="description-link-wrapper">
                                             <div class="description-wrapper">
-                                                A paradise in its true sense, The emerald isle is a destination that can
-                                                satisfy the intense thirst for adventure! </div>
+                                                A true paradise, the Emerald Isle is a dream destination for tourists, offering thrilling adventures and unforgettable experiences! </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1233,19 +1103,18 @@
                     </div>
                 </div>
                 <div class="desktop-image lazyBackground"
-                    data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/tropical-paradise.jpg">
+                    data-imgsrc="./123.gif">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-10 col-xl-11 mx-auto">
                                 <div class="section-inner-wrapper">
                                     <div class="section-title-wrapper">
-                                        <div class="line-title"> TRULY </div>
-                                        <h2 class="home-section-title"> A Tropical Paradise</h2>
+                                        <div class="line-title"> </div>
+                                        <h2 class="home-section-title"> The Jewel of the Indian Ocean</h2>
                                     </div>
                                     <div class="description-link-wrapper">
                                         <div class="description-wrapper">
-                                            A paradise in its true sense, The emerald isle is a destination that can
-                                            satisfy the intense thirst for adventure! </div>
+                                            A true paradise, the Emerald Isle is a dream destination for tourists, offering thrilling adventures and unforgettable experiences!</div>
                                     </div>
                                 </div>
                             </div>
@@ -1469,64 +1338,7 @@
                 <!-- /.section-inner-wrapper  -->
             </div>
             <!-- /.section-home-faq -->
-            <div class="section-home-instagram">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-10 col-xl-11 mx-auto">
-                            <div class="section-inner-wrapper">
-                                <div class="section-title-wrapper top">
-                                    <div class="line-title">
-                                        <span class="icon-instagram">
-                                            <svg class="icon svg-instagram">
-                                                <use xlink:href="#svg-icon-instagram"></use>
-                                            </svg>
-                                        </span>
-                                        <span class="line-title-text"> #TRULYSRILANKA </span>
-                                    </div>
-                                    <h2 class="home-section-title"> Instagram Feed </h2>
-                                </div>
-                                <!-- /.section-title-wrapper -->
 
-                                <div class="instagram-list-items-wrapper">
-                                    <div class="item"><a href="https://www.instagram.com/p/Ctb4PcIh33b/"
-                                            style="background-image:url(https://scontent-sin2-1.cdninstagram.com/v/t39.30808-6/354026340_639639561541272_149031322903558046_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=ylOfTocRZfEQ7kNvgGNYJ5N&_nc_zt=23&_nc_ht=scontent-sin2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYDq26Y_2CHvp4mCsg2ukpAt7FUAYt6qy2w_D43dKa-VRQ&oe=67565AF3)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CKS_LSIBKkI/"
-                                            style="background-image:url(https://scontent-sin6-3.cdninstagram.com/v/t51.29350-15/140238554_3811504375607324_5027411583211223890_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=18de74&_nc_ohc=QPsWK_DbCbkQ7kNvgEu2-6g&_nc_zt=23&_nc_ht=scontent-sin6-3.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYBIwiEwZFh7VhQbpzthk3T9hLWH5_iWyOuZ7jIx6JyPpA&oe=67566DBF)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CJMM3PlhZyF/"
-                                            style="background-image:url(https://scontent-sin11-1.cdninstagram.com/v/t51.29350-15/132198152_2812804678983190_734768573559248984_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=18de74&_nc_ohc=G7qNikGjcA8Q7kNvgHRKdUa&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYCTzu3FGuUJOO2OPfnuKMHEOZIx7bB0E8rGhNy89amfcQ&oe=675671B4)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CGxWnLShPWl/"
-                                            style="background-image:url(https://scontent-sin6-2.cdninstagram.com/v/t51.29350-15/122431030_189706125930732_7829555835365353424_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=9kyMoYq7sQcQ7kNvgFdYo1W&_nc_zt=23&_nc_ht=scontent-sin6-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYDty453w7nsVeEqDtePeH3B15r1ZV-bFbZvEdghYTymMw&oe=67568D5F)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CGxWaA-h2lg/"
-                                            style="background-image:url(https://scontent-sin2-1.cdninstagram.com/v/t51.29350-15/122734547_174652930949822_4139636089252144152_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=18de74&_nc_ohc=1NbFy8Zw_2AQ7kNvgGtMI8P&_nc_zt=23&_nc_ht=scontent-sin2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYBpk4kqYCpFDRSyC63K4aLpGaJLijChQBA-CQ60cipSSA&oe=675675E2)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CGgt5RaBoT-/"
-                                            style="background-image:url(https://scontent-sin2-1.cdninstagram.com/v/t51.29350-15/121669279_2438490959787529_5467030394254386456_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=ThYc7xGYxE4Q7kNvgE4-NkL&_nc_zt=23&_nc_ht=scontent-sin2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYBU6168kFxP7LrciF4VVvVZkjXrzGzHMtJa7snW0zOnnQ&oe=67565BAA)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CFjYp9-hNCL/"
-                                            style="background-image:url(https://scontent-sin6-2.cdninstagram.com/v/t51.29350-15/120084945_336645104337827_2031688341472663263_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=jXDshsQxQi4Q7kNvgE63rWZ&_nc_zt=23&_nc_ht=scontent-sin6-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYBbkbYkP9yLDsI6Pz-czeEnyp0S1t0VIIKcWXkfmlOprg&oe=67567835)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CFg5qmPhOgv/"
-                                            style="background-image:url(https://scontent-sin2-1.cdninstagram.com/v/t51.29350-15/119996746_1617740775077945_4230555059127742093_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=N5qgOLYaExcQ7kNvgHDxmF4&_nc_zt=23&_nc_ht=scontent-sin2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYAhG37mZA91oth2cODVndSIn-ppXQ7Tmjr-q1I6gK6gjg&oe=6756684C)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CE6FqzuBm3S/"
-                                            style="background-image:url(https://scontent-sin11-1.cdninstagram.com/v/t51.29350-15/118702172_203868264416263_8843557864300577974_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=18de74&_nc_ohc=MV8X8Unw8bUQ7kNvgHTI_Ii&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYCXp2OePXWK99QF3fums1wEczvOkRIgeSRIhb6EDX9-zw&oe=67566F39)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CE6E9q7hTof/"
-                                            style="background-image:url(https://scontent-sin11-1.cdninstagram.com/v/t51.29350-15/118940396_3513144478738160_7974940776254426322_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=18de74&_nc_ohc=n-eC0HoSDmQQ7kNvgFdXJPW&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYB96BXQIeqn0Ri5vYEYnvITdckFdB26uTL7Vq7P86Mkfw&oe=67568853)"
-                                            target="_blank"></a></div>
-                                </div>
-                                <!-- /.instagram-list-items-wrapper -->
-
-                            </div>
-                            <!-- /.section-inner-wrapper -->
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!-- /.section-home-instagram -->
 
 
@@ -1537,8 +1349,8 @@
     <script type='text/javascript' src='http://localhost/cjd/wp-includes/js/wp-embed.min.js?ver=5.4.9'>
     </script>
     <?php
-        include "./footer.php";
-    
+    include "./footer.php";
+
     ?>
     <!-- model share -->
 
@@ -1546,14 +1358,14 @@
     <script defer src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
 
     <script>
-    //set view height
-    var vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', vh + 'px');
-
-    window.addEventListener('resize', function() {
+        //set view height
         var vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', vh + 'px');
-    }, true);
+
+        window.addEventListener('resize', function() {
+            var vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', vh + 'px');
+        }, true);
     </script>
 
     <script defer
@@ -1582,9 +1394,9 @@
         <symbol id="svg-icon-fb" viewBox="0 0 7.88 14.91">
             <defs>
                 <style>
-                .fb-1 {
-                    fill-rule: evenodd
-                }
+                    .fb-1 {
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="fb-1"
@@ -1602,9 +1414,9 @@
         <symbol id="svg-icon-twitter" viewBox="0 0 17.5 14.91">
             <defs>
                 <style>
-                .twitter-1 {
-                    fill-rule: evenodd
-                }
+                    .twitter-1 {
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="twitter-1"
@@ -1618,9 +1430,9 @@
         <symbol id="svg-icon-youtube" viewBox="0 0 13.13 15.78">
             <defs>
                 <style>
-                .youtube-1 {
-                    fill-rule: evenodd
-                }
+                    .youtube-1 {
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="youtube-1"
@@ -1640,10 +1452,10 @@
         <symbol id="svg-icon-instafeed" viewBox="0 0 78 78">
             <defs>
                 <style>
-                .cls-instafeed-2 {
-                    fill: #d8d3d3;
-                    fill-rule: evenodd;
-                }
+                    .cls-instafeed-2 {
+                        fill: #d8d3d3;
+                        fill-rule: evenodd;
+                    }
                 </style>
             </defs>
             <path id="instafeed-icon.svg" class="cls-instafeed-2"
@@ -1653,9 +1465,9 @@
         <symbol id="svg-arrow-right" viewBox="0 0 12 22">
             <defs>
                 <style>
-                .arrow-right {
-                    fill-rule: evenodd;
-                }
+                    .arrow-right {
+                        fill-rule: evenodd;
+                    }
                 </style>
             </defs>
             <path id="svg-arrow-right.svg" class="arrow-right"
@@ -1671,9 +1483,9 @@
         <symbol id="svg-arrow-left" viewBox="0 0 12 22">
             <defs>
                 <style>
-                .arrow-left {
-                    fill-rule: evenodd;
-                }
+                    .arrow-left {
+                        fill-rule: evenodd;
+                    }
                 </style>
             </defs>
             <path id="svg-arrow-left.svg" class="arrow-left"
@@ -1689,10 +1501,10 @@
         <symbol id="svg-icon-chat" viewBox="0 0 17.16 17">
             <defs>
                 <style>
-                .chat {
-                    fill: #fff;
-                    fill-rule: evenodd
-                }
+                    .chat {
+                        fill: #fff;
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="bubble_icon"
@@ -1702,10 +1514,10 @@
         <symbol id="svg-icon-heart" viewBox="0 0 18.88 17">
             <defs>
                 <style>
-                .heart {
-                    fill: #fff;
-                    fill-rule: evenodd
-                }
+                    .heart {
+                        fill: #fff;
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="Forma_3" d="M843.423 959.994c-18.388-10.1-5.089-22.651 0-14.2 5.09-8.451 18.39 4.106 0 14.2z"
@@ -1751,13 +1563,13 @@
         <symbol id="svg-email" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -1777,17 +1589,17 @@
         <symbol id="tropical-land" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
 
-                .cls-3 {
-                    fill: #b5985a
-                }
+                    .cls-3 {
+                        fill: #b5985a
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -1808,17 +1620,17 @@
         <symbol id="island-hospitality" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
 
-                .cls-3 {
-                    fill: #b5985a
-                }
+                    .cls-3 {
+                        fill: #b5985a
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -1836,17 +1648,17 @@
         <symbol id="lonely-planet" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
 
-                .cls-3 {
-                    fill: #b5985a
-                }
+                    .cls-3 {
+                        fill: #b5985a
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -1869,22 +1681,22 @@
 
     </svg>
     <script>
-    $(document).ready(function() {
-        $('form[id="ftr_newsltr"]').validate({
-            rules: {
-                param_email: {
-                    required: true,
-                    email: true,
+        $(document).ready(function() {
+            $('form[id="ftr_newsltr"]').validate({
+                rules: {
+                    param_email: {
+                        required: true,
+                        email: true,
+                    },
                 },
-            },
-            messages: {
-                param_email: 'Enter a valid email',
-            },
-            submitHandler: function(form) {
-                form.submit();
-            }
+                messages: {
+                    param_email: 'Enter a valid email',
+                },
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
         });
-    });
     </script>
 
 </body>
