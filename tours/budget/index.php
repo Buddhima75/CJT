@@ -170,6 +170,10 @@
     <script type="text/javascript">
         var ajaxurl = "http://localhost/cjd/wp-admin/admin-ajax.php";
     </script>
+    <!-- Add AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Add our custom CSS -->
+    <link rel="stylesheet" href="need-from-you.css">
 </head>
 
 <body>
@@ -221,6 +225,110 @@
             </div>
         </div>
     </div>
+
+    <!-- We Need From You Section -->
+    <section class="need-from-you">
+        <h1>We Need From You</h1>
+        <div class="cards-container">
+            <div class="info-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-icon">
+                    <i class="fas fa-wallet"></i>
+                </div>
+                <h2>Budget</h2>
+                <p>The range of your expenses you can afford for the tour.</p>
+            </div>
+
+            <div class="info-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h2>Days</h2>
+                <p>The days will you arrive and how long you plan to stay.</p>
+            </div>
+
+            <div class="info-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h2>Places</h2>
+                <p>The places you need to visit around Sri Lanka.</p>
+            </div>
+
+            <div class="info-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="card-icon">
+                    <i class="fas fa-hotel"></i>
+                </div>
+                <h2>Hotels</h2>
+                <p>The places you need to stay while you are traveling.</p>
+            </div>
+
+            <div class="info-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="card-icon">
+                    <i class="fas fa-bus"></i>
+                </div>
+                <h2>Transport</h2>
+                <p>The transportation media would you like to use for your tour.</p>
+            </div>
+
+            <div class="info-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="card-icon">
+                    <i class="fas fa-hiking"></i>
+                </div>
+                <h2>Activities</h2>
+                <p>Special activities that you need to experience in Sri Lanka.</p>
+            </div>
+
+            <div class="info-card" data-aos="fade-up" data-aos-delay="700">
+                <div class="card-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h2>Food</h2>
+                <p>Explore the authentic Sri Lankan cuisine and dining preferences.</p>
+            </div>
+
+            <div class="info-card" data-aos="fade-up" data-aos-delay="800">
+                <div class="card-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h2>Group Size</h2>
+                <p>Number of travelers joining the tour experience.</p>
+            </div>
+
+            <div class="info-card" data-aos="fade-up" data-aos-delay="900">
+                <div class="card-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h2>Preferences</h2>
+                <p>Your special requirements and personal preferences.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section with Wave -->
+    <section class="contact-wave-section">
+        <div class="wave-container">
+            <div class="wave"></div>
+        </div>
+        <div class="contact-content">
+            <div class="sri-lanka-icon">
+                <img src="http://localhost/cjd/images/logo/logo.png" alt="Sri Lanka Icon" class="floating-icon">
+            </div>
+            <div class="contact-text">
+                <h2>Just drop us an email.</h2>
+                <h3>We will come to you.</h3>
+                <p class="subtitle">Send us an email for us. Then we will contact you immediately with a report from the requirements according to your tour.</p>
+            </div>
+            <div class="contact-form">
+                <form id="emailContactForm" method="POST">
+                    <div class="form-row">
+                        <input type="text" id="yourName" name="yourName" placeholder="Your Name" required>
+                        <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        <button type="submit" class="send-btn">Send Us</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <style>
         .hero-banner {
@@ -520,653 +628,262 @@
                 transform: translateZ(20px) scale(1.02);
             }
         }
+
+        /* Contact Wave Section Styles */
+        .contact-wave-section {
+            position: relative;
+            background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+            padding: 100px 0;
+            margin-top: 50px;
+            overflow: hidden;
+        }
+
+        .wave-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+
+        .wave {
+            position: relative;
+            width: 100%;
+            height: 150px;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23ffffff' fill-opacity='1' d='M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,234.7C672,235,768,213,864,202.7C960,192,1056,192,1152,170.7C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .contact-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .sri-lanka-icon {
+            margin-bottom: 30px;
+        }
+
+        .floating-icon {
+            width: 80px;
+            height: auto;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .contact-text {
+            margin-bottom: 40px;
+        }
+
+        .contact-text h2 {
+            font-size: 3.5rem;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .contact-text h3 {
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .contact-text .subtitle {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .contact-form {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-row input {
+            flex: 1;
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .form-row input:focus {
+            border-color: #009124;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(0, 145, 36, 0.1);
+        }
+
+        .send-btn {
+            padding: 15px 40px;
+            background: #009124;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .send-btn:hover {
+            background: #007a1f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 145, 36, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .contact-wave-section {
+                padding: 60px 0;
+            }
+
+            .contact-text h2 {
+                font-size: 2.5rem;
+            }
+
+            .contact-text h3 {
+                font-size: 2rem;
+            }
+
+            .form-row {
+                flex-direction: column;
+            }
+
+            .form-row input,
+            .send-btn {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .contact-text h2 {
+                font-size: 2rem;
+            }
+
+            .contact-text h3 {
+                font-size: 1.5rem;
+            }
+
+            .contact-text .subtitle {
+                font-size: 1rem;
+            }
+        }
+
+        /* Updated Grid Layout Styles */
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            padding: 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .info-card {
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            background: #ffffff;
+            border-radius: 20px;
+            text-align: center;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            border: 1px solid rgba(0, 145, 36, 0.1);
+            overflow: hidden;
+        }
+
+        .info-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 145, 36, 0.1);
+            border-color: rgba(0, 145, 36, 0.3);
+        }
+
+        .card-icon {
+            margin-bottom: 1.5rem;
+        }
+
+        .card-icon i {
+            font-size: 2.5rem;
+            color: #009124;
+            background: rgba(0, 145, 36, 0.1);
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .info-card:hover .card-icon i {
+            transform: scale(1.1) rotate(360deg);
+            background: #009124;
+            color: #ffffff;
+            box-shadow: 0 10px 20px rgba(0, 145, 36, 0.2);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .cards-container {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1.5rem;
+                padding: 1.5rem;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .cards-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 576px) {
+            .cards-container {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+                padding: 1rem;
+            }
+
+            .info-card {
+                aspect-ratio: auto;
+                padding: 1.5rem;
+            }
+        }
     </style>
-    <main>
-        <div class="ts-overview-page ts-overview-page-desti">
-            <!-- Gallery listing -->
-            <div class="container-fluid" data-aos="fade-up">
-                <div class="row">
-                    <div class="col-xl-11 mx-auto">
-                        <div class="page-inner-wrapper">
-                            <div class="component-page-intro intro-type-2">
-                                <div class="title-main-wrapper listings">
-                                </div>
-                                <h1 class="text-center"> Tour Overview</h1>
-                                <br><br>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-6 text-center text-md-left align-items-center">
-                                            <!-- Bootstrap Carousel -->
-                                            <div id="imageCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-                                                <div class="carousel-inner">
-                                                    <div class="carousel-item active">
-                                                        <div class="position-relative">
-                                                            <img src="http://localhost/cjd/images/tours/30.jpg" class="d-block w-100" alt="Ceylon Jay Travels Logo 1">
-                                                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                                                <h2>Kandy</h2>
-                                                                <a href="https://en.wikipedia.org/wiki/Dambulla" class="btn"> Click Here </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <div class="position-relative">
-                                                            <img src="http://localhost/cjd/images/tours/1.jpg" class="d-block w-100" alt="Ceylon Jay Travels Logo 2">
-                                                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                                                <h2>Sigiriya</h2>
-                                                                <a href="https://en.wikipedia.org/wiki/Sigiriya" class="btn"> Click Here </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <div class="position-relative">
-                                                            <img src="http://localhost/cjd/images/tours/12.webp" class="d-block w-100" alt="Ceylon Jay Travels Logo 3">
-                                                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                                                <h2>Anuradhapura</h2>
-                                                                <a href="https://en.wikipedia.org/wiki/Anuradhapura" class="btn"> Click Here </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <div class="position-relative">
-                                                            <img src="http://localhost/cjd/images/tours/polonnaruwa.jpg" class="d-block w-100" alt="Ceylon Jay Travels Logo 4">
-                                                            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                                                <h2>Polonnaruwa</h2>
-                                                                <a href="https://en.wikipedia.org/wiki/Polonnaruwa" class="btn"> Click Here </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- Carousel Controls -->
-                                                <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-                                                    <span class="carousel-control">
-                                                        < </span>
-                                                </button>
-                                                <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-                                                    <span class="carousel-control"> > </span>
-                                                </button>
-                                            </div>
-                                        </div>
 
-                                        <div class="col-md-6 " style="text-align: left !important;">
-                                            <h4>Covering Places & Distance</h4>
-
-                                            <p class="text-muted">
-                                                ✔️&nbsp; Dambulla, Sigiriya, Kandy, Anuradapura & Polonnaruwa
-                                            </p>
-
-                                            <p class="text-muted">
-                                                ✔️&nbsp; Distance – Depend on itinerary.
-                                            </p>
-                                            <hr>
-                                            <h4>Best Time to Visit</h4>
-                                            <p class="text-muted">
-                                                ✔️&nbsp; Throughout the year.
-                                            </p>
-                                            <hr>
-                                            <h4>People & Vehicles</h4>
-                                            <p class="text-muted">
-                                                ✔️&nbsp; 1- No limit</p>
-
-                                            <p class="text-muted">
-                                                ✔️&nbsp; Car, Van or Bus
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- tab level navigaton -->
-                                <hr class="style-two">
-                                <h1 class="text-center">Places You Can Visit</h1>
-
-
-                                <div class="container my-4">
-                                    <div class="row py-3 ">
-                                        <!-- Main Image -->
-                                        <div class="col-12 mb-2">
-                                            <div class="image-container msz">
-                                                <img id="mainImage" src="http://localhost/cjd/images/tours/3.jpg"
-                                                    alt="Gallery image 1">
-                                                <div class="overlay-text" id="mainImageText">Sigiriya</div>
-
-                                            </div>
-                                        </div>
-
-                                        <!-- Thumbnails (Click to Change Main Image) -->
-                                        <div class="col-3 mt-1">
-                                            <div class="image-container sz" onclick="changeImage(this)">
-                                                <img src="http://localhost/cjd/images/tours/3.jpg"
-                                                    data-text="Sigiriya" alt="Gallery image 1">
-                                            </div>
-                                        </div>
-                                        <div class="col-3 mt-1">
-                                            <div class="image-container sz" onclick="changeImage(this)">
-                                                <img src="http://localhost/cjd/images/tours/30.jpg"
-                                                    data-text="The Temple Of The Tooth Relic" alt="Gallery image 1">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-3 mt-1">
-                                            <div class="image-container sz" onclick="changeImage(this)">
-                                                <img src="http://localhost/cjd/images/tours/170.jpg"
-                                                    data-text="Jethawanaramaya" alt="Gallery image 2">
-                                            </div>
-                                        </div>
-
-                                        <div class="col-3 mt-1">
-                                            <div class="image-container sz" onclick="changeImage(this)">
-                                                <img src="http://localhost/cjd/images/tours/16.jpg"
-                                                    data-text="Rock Cave Temple" alt="Gallery image 3">
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-                                <hr class="style-two">
-
-                                <!-- Creative 8 Days Section -->
-                                <style>
-                                    .eight-section-container {
-                                        position: relative;
-                                        height: 800px;
-                                        display: flex;
-                                        justify-content: center;
-                                        align-items: center;
-                                        margin: 50px 0;
-                                        padding: 0 100px;
-                                        overflow: hidden;
-                                    }
-
-                                    .number-eight {
-                                        font-size: 500px;
-                                        font-weight: bold;
-                                        color: #009124;
-                                        opacity: 0.15;
-                                        position: absolute;
-                                        z-index: 1;
-                                        transform: translateY(-20px);
-                                    }
-
-                                    .eight-days-text {
-                                        position: absolute;
-                                        font-size: 48px;
-                                        font-weight: bold;
-                                        color: #009124;
-                                        bottom: 50px;
-                                        z-index: 2;
-                                    }
-
-                                    .images-container {
-                                        position: relative;
-                                        width: 100%;
-                                        height: 100%;
-                                    }
-
-                                    .hotel-image {
-                                        width: 160px;
-                                        height: 160px;
-                                        border-radius: 15px;
-                                        overflow: hidden;
-                                        position: absolute;
-                                        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-                                        transition: all 0.4s ease;
-                                        cursor: pointer;
-                                        z-index: 2;
-                                    }
-
-                                    .hotel-image:hover {
-                                        transform: scale(1.1);
-                                        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-                                    }
-
-                                    .hotel-image img {
-                                        width: 100%;
-                                        height: 100%;
-                                        object-fit: cover;
-                                        transition: all 0.4s ease;
-                                    }
-
-                                    .hotel-image:hover img {
-                                        transform: scale(1.1);
-                                    }
-
-                                    /* Left Side Images */
-                                    .hotel-image:nth-child(1) {
-                                        left: 0;
-                                        top: 15%;
-                                    }
-
-                                    .hotel-image:nth-child(2) {
-                                        left: 15%;
-                                        top: 35%;
-                                    }
-
-                                    .hotel-image:nth-child(3) {
-                                        left: 5%;
-                                        bottom: 25%;
-                                    }
-
-                                    .hotel-image:nth-child(4) {
-                                        left: 20%;
-                                        bottom: 10%;
-                                    }
-
-                                    /* Right Side Images */
-                                    .hotel-image:nth-child(5) {
-                                        right: 0;
-                                        top: 15%;
-                                    }
-
-                                    .hotel-image:nth-child(6) {
-                                        right: 15%;
-                                        top: 35%;
-                                    }
-
-                                    .hotel-image:nth-child(7) {
-                                        right: 5%;
-                                        bottom: 25%;
-                                    }
-
-                                    .hotel-image:nth-child(8) {
-                                        right: 20%;
-                                        bottom: 10%;
-                                    }
-
-                                    .hotel-image {
-                                        animation: float 4s ease-in-out infinite;
-                                    }
-
-                                    .hotel-image:nth-child(2n) {
-                                        animation-delay: 0.5s;
-                                    }
-
-                                    .hotel-image:nth-child(3n) {
-                                        animation-delay: 1s;
-                                    }
-
-                                    .hotel-image:nth-child(4n) {
-                                        animation-delay: 1.5s;
-                                    }
-
-                                    .hotel-title {
-                                        position: absolute;
-                                        bottom: 0;
-                                        left: 0;
-                                        right: 0;
-                                        background: rgba(0, 145, 36, 0.9);
-                                        color: white;
-                                        padding: 8px 15px;
-                                        font-size: 14px;
-                                        text-align: center;
-                                        transform: translateY(100%);
-                                        transition: all 0.3s ease;
-                                    }
-
-                                    .hotel-image:hover .hotel-title {
-                                        transform: translateY(0);
-                                    }
-
-                                    .hotel-number {
-                                        position: absolute;
-                                        top: 10px;
-                                        left: 10px;
-                                        background: rgba(0, 145, 36, 0.9);
-                                        color: white;
-                                        width: 40px;
-                                        height: 40px;
-                                        border-radius: 50%;
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        font-size: 14px;
-                                        font-weight: bold;
-                                        z-index: 3;
-                                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-                                    }
-
-                                    /* Mobile Styles */
-                                    @media (max-width: 768px) {
-                                        .eight-section-container {
-                                            height: auto;
-                                            padding: 20px;
-                                            margin: 30px 0;
-                                        }
-
-                                        .number-eight {
-                                            font-size: 200px;
-                                            position: relative;
-                                            margin-bottom: 20px;
-                                        }
-
-                                        .eight-days-text {
-                                            position: relative;
-                                            bottom: auto;
-                                            margin-bottom: 30px;
-                                            font-size: 32px;
-                                        }
-
-                                        .images-container {
-                                            display: grid;
-                                            grid-template-columns: repeat(2, 1fr);
-                                            gap: 15px;
-                                            height: auto;
-                                        }
-
-                                        .hotel-image {
-                                            position: relative;
-                                            width: 100%;
-                                            height: 180px;
-                                            left: auto !important;
-                                            right: auto !important;
-                                            top: auto !important;
-                                            bottom: auto !important;
-                                            animation: none;
-                                        }
-
-                                        .hotel-title {
-                                            transform: translateY(0);
-                                            font-size: 12px;
-                                            padding: 6px 10px;
-                                        }
-                                    }
-
-                                    @media (max-width: 480px) {
-                                        .images-container {
-                                            grid-template-columns: 1fr;
-                                        }
-
-                                        .hotel-image {
-                                            height: 200px;
-                                        }
-
-                                        .number-eight {
-                                            font-size: 150px;
-                                        }
-
-                                        .eight-days-text {
-                                            display: none;
-                                        }
-                                    }
-                                </style>
-                                <h1>Tour Iteanries</h1>
-                                <h4>We are always ready to customize tours for you according to your requirement. Please contact us for more information. </h4>
-                                <div class="eight-section-container">
-                                    <div class="number-eight">8</div>
-                                    <div class="eight-days-text">8 Days </div>
-
-                                    <div class="images-container">
-                                        <div class="hotel-image">
-                                            <div class="hotel-number">1 Day</div>
-                                            <img src="http://localhost/cjd/images/tours/ar.jpg" alt="Luxury Suite">
-                                            <div class="hotel-title">Colombo or Negombo</div>
-                                        </div>
-                                        <div class="hotel-image">
-                                            <div class="hotel-number">2 Day</div>
-                                            <img src="http://localhost/cjd/images/tours/12.webp" alt="Ocean View">
-                                            <div class="hotel-title">Anuradhapura</div>
-                                        </div>
-                                        <div class="hotel-image">
-                                            <div class="hotel-number">3 Day</div>
-                                            <img src="http://localhost/cjd/images/tours/170.jpg" alt="Mountain Resort">
-                                            <div class="hotel-title">Anuradhapura</div>
-                                        </div>
-                                        <div class="hotel-image">
-                                            <div class="hotel-number">4 Day</div>
-                                            <img src="http://localhost/cjd/images/tours/polonnaruwa.jpg" alt="City Hotel">
-                                            <div class="hotel-title">Polonnaruwa</div>
-                                        </div>
-                                        <div class="hotel-image">
-                                            <div class="hotel-number">8 Day</div>
-                                            <img src="http://localhost/cjd/images/tours/d.avif" alt="Eco Lodge">
-                                            <div class="hotel-title">Departure</div>
-                                        </div>
-                                        <div class="hotel-image">
-                                            <div class="hotel-number">7 Day</div>
-                                            <img src="http://localhost/cjd/images/tours/65.jpg" alt="Boutique Hotel">
-                                            <div class="hotel-title">Kandy</div>
-                                        </div>
-                                        <div class="hotel-image">
-                                            <div class="hotel-number">6 Day</div>
-                                            <img src="http://localhost/cjd/images/tours/30.jpg" alt="Heritage Hotel">
-                                            <div class="hotel-title">Kandy</div>
-                                        </div>
-                                        <div class="hotel-image">
-                                            <div class="hotel-number">5 Day</div>
-                                            <img src="http://localhost/cjd/images/tours/16.jpg" alt="Beach Resort">
-                                            <div class="hotel-title">Dambulla</div>
-                                        </div>
-
-
-
-                                    </div>
-                                </div>
-
-                                <hr class="style-two">
-                            </div>
-                            <!-- /.page-intro intro-type-1 -->
-                            <!-- Overview -->
-                            <h1 class="text-center"> Places You Can Stay</h1>
-                            <!-- Bootstrap Video Carousel -->
-                            <div id="carouselVideoExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                                <!-- Indicators -->
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                </div>
-
-                                <!-- Inner -->
-                                <div class="carousel-inner">
-                                    <!-- Single item -->
-                                    <div class="carousel-item active">
-                                        <img src="http://localhost/cjd/images/accommodation/hk.webp" class="d-block w-100 op1" alt="First Slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h1>Heritance Kandalama</h1>
-                                            <a href="https://www.heritancehotels.com/kandalama/" class="btn">Click Here</a>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single item -->
-                                    <div class="carousel-item">
-                                        <img src="http://localhost/cjd/images/accommodation/or.jpg" class="d-block w-100 op1" alt="Second Slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h1>Oak Ray Hotels</h1>
-                                            <a href="https://www.oakrayhotels.com/" class="btn">Click Here</a>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single item -->
-                                    <div class="carousel-item">
-                                        <img src="http://localhost/cjd/images/tours/plam.jpg" class="d-block w-100 op1" alt="Third Slide">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h1>Palm Garden Village</h1>
-                                            <a href="https://www.palmgardenvillagehotel.com/" class="btn">Click Here</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Inner -->
-
-                                <!-- Controls -->
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideoExample" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden"></span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselVideoExample" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden"></span>
-                                </button>
-                            </div>
-
-                            <style>
-                                /* Mobile responsive styles for carousel */
-                                @media (max-width: 768px) {
-                                    .carousel-caption.d-none.d-md-block {
-                                        display: block !important;
-                                        background: rgba(0, 145, 36, 0.8);
-                                        left: 0;
-                                        right: 0;
-                                        bottom: 0;
-                                        padding: 15px;
-                                    }
-
-                                    .carousel-caption h1 {
-                                        font-size: 24px;
-                                        margin-bottom: 10px;
-                                    }
-
-                                    .carousel-caption .btn {
-                                        font-size: 14px;
-                                        padding: 5px 15px;
-                                        margin-bottom: 5px;
-                                    }
-                                }
-
-                                @media (max-width: 480px) {
-                                    .carousel-caption h1 {
-                                        font-size: 20px;
-                                        margin-bottom: 8px;
-                                    }
-
-                                    .carousel-caption .btn {
-                                        font-size: 12px;
-                                        padding: 4px 12px;
-                                    }
-                                }
-                            </style>
-
-                            <hr class="style-two">
-                            <!-- Attractions -->
-                            <!-- Things to do -->
-                            <!-- <div class="section-attractions things-to-do">
-                        <div class="se  ction-intro">
-                           <h2>Reviews</h2>
-                           <div class="container                         1">
-                              
-                              <div class="reviews">
-                                 <div class="review-items">
-                                   
-                                    <div class="review-item">
-                                       <div class="rating">
-                                          <label for="star5_review1" class="fas fa-star"></label>
-                                          <label for="star4_review1" class="fas fa-star"></label>
-                                          <label for="star3_review1" class="fas fa-star"></label>
-                                          <label for="star2_review1" class="fas fa-star"></label>
-                                          <label for="star1_review1" class="fas fa-star"></label>
-                                       </div>
-                                       <div class="comment">
-                                          <p>Excellent product! Highly recommend it to everyone. Will definitely buy again.</p>
-                                       </div>
-                                    </div>
-                                    
-                                    <div class="review-item">
-                                       <div class="rating">
-                                          <label for="star5_review2" class="fas fa-star"></label>
-                                          <label for="star4_review2" class="fas fa-star"></label>
-                                          <label for="star3_review2" class="fas fa-star"></label>
-                                          <label for="star2_review2" class="fas fa-star"></label>
-                                          <label for="star1_review2" class="fas fa-star"></label>
-                                       </div>
-                                       <div class="comment">
-                                          <p>Good quality, but the delivery was a bit delayed. Overall, satisfied with the purchase.</p>
-                                       </div>
-                                    </div>
-                                   
-                                    <div class="review-item">
-                                       <div class="rating">
-                                          <label for="star5_review3" class="fas fa-star"></label>
-                                          <label for="star4_review3" class="fas fa-star"></label>
-                                          <label for="star3_review3" class="fas fa-star"></label>
-                                          <label for="star2_review3" class="fas fa-star"></label>
-                                          <label for="star1_review3" class="fas fa-star"></label>
-                                       </div>
-                                       <div class="comment">
-                                          <p>The product was okay, but it didn't meet all of my expectations.</p>
-                                       </div>
-                                    </div>
-                                    
-                                    <div class="review-item">
-                                       <div class="rating">
-                                          <label for="star5_review4" class="fas fa-star"></label>
-                                          <label for="star4_review4" class="fas fa-star"></label>
-                                          <label for="star3_review4" class="fas fa-star"></label>
-                                          <label for="star2_review4" class="fas fa-star"></label>
-                                          <label for="star1_review4" class="fas fa-star"></label>
-                                       </div>
-                                       <div class="comment">
-                                          <p>Not great, expected more features for the price.</p>
-                                       </div>
-                                    </div>
-                                    
-                                    <div class="review-item">
-                                       <div class="rating">
-                                          <label for="star5_review5" class="fas fa-star"></label>
-                                          <label for="star4_review5" class="fas fa-star"></label>
-                                          <label for="star3_review5" class="fas fa-star"></label>
-                                          <label for="star2_review5" class="fas fa-star"></label>
-                                          <label for="star1_review5" class="fas fa-star"></label>
-                                       </div>
-                                       <div class="comment">
-                                          <p>Great item, but the color was a little different than expected.</p>
-                                       </div>
-                                    </div>
-                                    
-                                    <div class="review-item">
-                                       <div class="rating">
-                                          <label for="star5_review6" class="fas fa-star"></label>
-                                          <label for="star4_review6" class="fas fa-star"></label>
-                                          <label for="star3_review6" class="fas fa-star"></label>
-                                          <label for="star2_review6" class="fas fa-star"></label>
-                                          <label for="star1_review6" class="fas fa-star"></label>
-                                       </div>
-                                       <div class="comment">
-                                          <p>The item works well, but it has some minor flaws.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <script>
-                              let currentReview = 0;
-                              const reviewItems = document.querySelector('.review-items');
-                              const totalReviews = document.querySelectorAll('.review-item').length;
-
-                              // Duplicate the review items for a smooth infinite loop
-                              reviewItems.innerHTML += reviewItems.innerHTML;
-
-                              // Function to slide the reviews
-                              function slideReviews() {
-                                 currentReview++;
-
-                                 // Check if we reached the last review
-                                 if (currentReview >= totalReviews) {
-                                    currentReview = 0;
-                                    reviewItems.style.transition = 'none'; // Disable transition while resetting position
-                                    reviewItems.style.transform = `translateX(0)`;
-                                    setTimeout(() => {
-                                       reviewItems.style.transition = 'transform 0.5s ease'; // Re-enable transition
-                                    }, 20);
-                                 } else {
-                                    reviewItems.style.transform = `translateX(-${currentReview * 50}%)`;
-                                 }
-                              }
-
-                              // Slide every 3 seconds (3000ms)
-                              setInterval(slideReviews, 4000);
-                           </script>
-                        </div>
-                        
-                     </div> -->
-                            <!-- Culinary Delights -->
-                        </div>
-                        <!-- /.page-inner-wrapper -->
-                    </div>
-                    <!-- /.col -->
-                </div>
-                <!-- /.row -->
-            </div>
-        </div>
-    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script type='text/javascript' src='http://localhost/cjd/wp-includes/js/wp-embed.min.js?ver=5.4.9'></script>
     <?php
@@ -1432,6 +1149,62 @@
             }
         }
     </style>
+    <!-- Add AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true
+        });
+    </script>
+
+    <!-- Contact Form Handling -->
+    <script>
+        document.getElementById('emailContactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Get form values
+            const name = document.getElementById('yourName').value;
+            const email = document.getElementById('email').value;
+
+            // Here you would typically send this data to your server
+            // For now, we'll just show a success message
+            const btn = e.target.querySelector('.send-btn');
+            const originalText = btn.textContent;
+
+            btn.textContent = 'Sending...';
+            btn.disabled = true;
+
+            // Simulate sending (replace this with actual API call)
+            setTimeout(() => {
+                btn.textContent = 'Sent Successfully!';
+                btn.style.backgroundColor = '#28a745';
+
+                // Reset form
+                e.target.reset();
+
+                // Reset button after 2 seconds
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.backgroundColor = '#009124';
+                    btn.disabled = false;
+                }, 2000);
+            }, 1500);
+        });
+
+        // Add wave animation
+        const wave = document.querySelector('.wave');
+        let waveOffset = 0;
+
+        function animateWave() {
+            waveOffset -= 0.5;
+            wave.style.backgroundPosition = `${waveOffset}px bottom`;
+            requestAnimationFrame(animateWave);
+        }
+
+        animateWave();
+    </script>
 </body>
 
 </html>

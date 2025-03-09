@@ -13,7 +13,6 @@
             <ul id="menu-top-menu">
                 <li><a href="http://localhost/cjd/"><span>Home</span></a></li>
                 <li><a href="http://localhost/cjd/destination.php"><span>Explore</span></a></li>
-                <li><a href="http://localhost/cjd/things-to-do.html"><span>Things to Do</span></a></li>
                 <li><a href="http://localhost/cjd/accommodation/"><span>Accommodation</span></a></li>
                 <li><a href="http://localhost/cjd/leisure-recreations/"><span>Leisure & Recreations</span></a></li>
                 <li><a href="http://localhost/cjd/transportation-vehicles/"><span>Transportation & Vehicles</span></a></li>
