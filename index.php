@@ -90,6 +90,212 @@
                 color: #000 !important;
             }
         }
+
+        /* Make header transparent only on index page */
+        body:not(.inner-page) header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: transparent !important;
+        }
+
+        body:not(.inner-page) .top-navigation {
+            background: transparent !important;
+        }
+
+        body:not(.inner-page) #menu-top-menu>li>a {
+            color: white !important;
+        }
+
+        body:not(.inner-page) #menu-top-menu>li>a:hover {
+            opacity: 0.8;
+        }
+/* 
+        body:not(.inner-page) .menu-item-has-children .sub-menu {
+            background: rgba(0, 0, 0, 0.8) !important;
+        } */
+
+        body:not(.inner-page) .menu-item-has-children .sub-menu option {
+            background: transparent !important;
+            color: white !important;
+        }
+
+        body:not(.inner-page) .menu-item-has-children .sub-menu option:hover {
+            background: rgba(255, 255, 255, 0.1) !important;
+        }
+
+        /* Adjust the SKYLINE section to account for fixed header */
+        .skyline-section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: url('./images/1.jpg') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            /* Changed from flex-end to center */
+            justify-content: center;
+            overflow: hidden;
+            margin-top: 0;
+        }
+
+        .skyline-text {
+            font-size: 8vw;
+            font-weight: 700;
+            color: white;
+            letter-spacing: 5vw;
+            text-transform: uppercase;
+            white-space: nowrap;
+            opacity: 0.9;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .mobile-logo {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .skyline-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                letter-spacing: normal;
+                padding: 0 20px;
+                height: 100%;
+                color: white;
+            }
+
+            .mobile-logo {
+                display: block;
+                width: 120px;
+                height: 120px;
+                background: url('./images/logo/logo.png') no-repeat center center;
+                background-size: contain;
+                margin-bottom: 30px;
+            }
+
+            .skyline-text .ceylon {
+                font-size: 15vw;
+                margin-bottom: 10px;
+                color: white;
+            }
+
+            .skyline-text .jay {
+                font-size: 18vw;
+                color: white;
+            }
+        }
+
+        .skyline-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+        }
+
+        /* Header transition styles */
+        body:not(.inner-page) header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: transparent;
+            transition: all 0.3s ease;
+        }
+
+        body:not(.inner-page) .top-navigation {
+            background: transparent;
+            transition: all 0.3s ease;
+        }
+
+        body:not(.inner-page) #menu-top-menu>li>a {
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        /* Scrolled state styles */
+        body:not(.inner-page) header.scrolled {
+            background: white !important;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        body:not(.inner-page) .top-navigation.scrolled {
+            background: white !important;
+        }
+
+        body:not(.inner-page) #menu-top-menu>li>a.scrolled {
+            color: #333 !important;
+        }
+
+        body:not(.inner-page) .menu-item-has-children .arrow.scrolled {
+            color: #333 !important;
+        }
+
+        /* Mobile Tours Dropdown Styles */
+        @media (max-width: 768px) {
+            .menu-item-has-children {
+                position: relative;
+            }
+
+            .menu-item-has-children>a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px;
+                background-color: transparent;
+                color: white;
+                width: 100%;
+                border: none;
+            }
+
+            .menu-item-has-children .arrow {
+                font-size: 12px;
+                transition: transform 0.3s ease;
+            }
+
+            .menu-item-has-children .sub-menu {
+                display: none;
+                width: 100%;
+                background-color: rgba(255, 255, 255, 0.95) !important;
+                border-radius: 8px;
+                padding: 5px !important;
+                margin-top: 5px;
+            }
+
+            .menu-item-has-children .sub-menu option {
+                display: block;
+                padding: 12px 15px !important;
+                color: #333 !important;
+                font-size: 14px;
+                border-radius: 4px;
+                margin: 2px 0;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+            .menu-item-has-children .sub-menu option:hover {
+                background-color: rgba(0, 0, 0, 0.05) !important;
+            }
+
+            /* Active state for dropdown */
+            .menu-item-has-children.active .arrow {
+                transform: rotate(180deg);
+            }
+
+            .menu-item-has-children.active .sub-menu {
+                display: block;
+            }
+        }
     </style>
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap" rel="stylesheet">
@@ -141,22 +347,27 @@
 
     ?>
     <!-- / header -->
+
+    <div class="skyline-section">
+        <div class="skyline-overlay"></div>
+        <div class="skyline-text">
+            <div class="mobile-logo"></div>
+            <span class="ceylon">Ceylon</span>
+            <span class="jay">Jay</span>
+        </div>
+    </div>
+
     <div class="banner homepage">
         <div class="banner-inner-wrapper">
             <div class="left-wrapper">
                 <div class="dynamic-overlay" style="opacity: 0.7;"></div>
                 <!-- this should be change from backend-->
                 <div class="left-image mobile">
-                    <div class="left-img-mobile" style="background-image:url('./images/34.jpg')"></div>
+
                     <div class="left-img-ipad" style="background-image:url('./images/34.jpg')">
                     </div>
 
-                    <div class="mobile-logo">
-                        <a href="http://localhost/cjd" id="branding-white" title="Ceylon Jay Travels"
-                            style="display: inline-block; padding: 15px 0;">
-                            <img src="./images/logo/logo.png" alt="Ceylon Jay Travels" title="Ceylon Jay Travels">
-                        </a>
-                    </div>
+
 
                 </div>
                 <div class="left-image desktop">
@@ -180,7 +391,7 @@
                         </h1>
                         <div class="description">
                             <p>Sri Lanka is located in southern Asia, off the southeast coast of India. Sri Lanka is an island that is bordered by the Gulf of Mannar to the west, the Bay of Bengal to the east, the Indian Ocean to the south, and Palk Bay to the northwest.</p>
-                            <p>Taprobana is undoubtedly present-day Sri Lanka when referring to the map. The map indicates names such as ‘Rhogandani’ in the south (known as Rohana in ancient times) and Anuragrami in the northwest referring to Anuradha Grama as it was known in ancient times.</p>
+                            <p>Taprobana is undoubtedly present-day Sri Lanka when referring to the map. The map indicates names such as 'Rhogandani' in the south (known as Rohana in ancient times) and Anuragrami in the northwest referring to Anuradha Grama as it was known in ancient times.</p>
                         </div>
                     </div>
                     <!-- /.home-intro -->
@@ -269,7 +480,7 @@
                 <div class="right-bottom-inner-wrapper">
                     <div class="component-why-truly-srilanka">
 
-                        <p>See the country’s stunning landscapes, endless white sand beaches and sprawling national parks from a trustworthy local’s perspective Follow a newly hatched sea turtle’s journey to the sea on the interminable white-sand beaches of the south coast, get a soaring “eagle”-eye view of the spectacular ancient Sigiriya rock fortress, watch the world’s most giant elephants travel in their home in the sprawling Udawalawe National Park, and witness doves waking with the vibrant sunrise over Colombo. Sri Lanka is more than just a destination, it’s a feeling. So feel it as much as you can.</p>
+                        <p>See the country's stunning landscapes, endless white sand beaches and sprawling national parks from a trustworthy local's perspective Follow a newly hatched sea turtle's journey to the sea on the interminable white-sand beaches of the south coast, get a soaring "eagle"-eye view of the spectacular ancient Sigiriya rock fortress, watch the world's most giant elephants travel in their home in the sprawling Udawalawe National Park, and witness doves waking with the vibrant sunrise over Colombo. Sri Lanka is more than just a destination, it's a feeling. So feel it as much as you can.</p>
                         <!-- /.items-wrapper -->
                     </div>
                 </div>
@@ -326,10 +537,10 @@
                                 <!-- <div class="description-wrapper">
                                     Arriving at this dream destination will leave you with excitement knowing that there
                                     are experiences ahead that are unique just to Sri Lanka. Right from your very first
-                                    step on the island, you’ll be greeted with a gust of inviting warm weather. Once
-                                    you’ve
-                                    hit the road, the sense of adventure will fill the air. You’ll be able to experience
-                                    the call of the wild, the gentle caress of nature and indulge yourself in Ceylon’s
+                                    step on the island, you'll be greeted with a gust of inviting warm weather. Once
+                                    you've
+                                    hit the road, the sense of adventure will fill the air. You'll be able to experience
+                                    the call of the wild, the gentle caress of nature and indulge yourself in Ceylon's
                                     rich culture. </div> -->
 
 
@@ -456,7 +667,7 @@
                                                         <!-- /.carousel-section -->
                                                         <div class="destination-detail-section">
                                                             <h3 class="destination-main-title"> Hikkaduwa </h3>
-                                                            <div class="destination-sub-title">The beach lover’s
+                                                            <div class="destination-sub-title">The beach lover's
                                                                 sanctuary</div>
                                                             <div class="description-link-wrapper">
                                                                 <div class="description-wrapper">
@@ -926,7 +1137,7 @@
                                     </div>
                                     <div class="description-link-wrapper">
                                         <div class="description-wrapper">
-                                            Since travelers often rave about Sri Lanka’s warm hospitality, why not experience it for yourself? With hotels and resorts nestled in the island’s most scenic spots, you’ll enjoy top-tier amenities for the perfect holiday getaway. </div>
+                                            Since travelers often rave about Sri Lanka's warm hospitality, why not experience it for yourself? With hotels and resorts nestled in the island's most scenic spots, you'll enjoy top-tier amenities for the perfect holiday getaway. </div>
                                         <!-- max char - 150-->
                                         <div class="link-wrapper">
                                             <a href="http://localhost/cjd/accommodation/" class="link-type-1">
@@ -1202,7 +1413,7 @@
                                             <div class="panel-body" itemprop="text">
                                                 <p>While Sri Lanka is generally relaxed about dress code, modest
                                                     clothing is recommended, especially when visiting temples and
-                                                    religious sites. It’s respectful to cover your shoulders and knees.
+                                                    religious sites. It's respectful to cover your shoulders and knees.
                                                 </p>
                                             </div>
                                         </div>
@@ -1230,7 +1441,7 @@
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-2">
                                             <div class="panel-body" itemprop="text">
                                                 <p>Some of the most popular festivals include Sinhala and Tamil New Year
-                                                    (April), Vesak (celebrating Buddha’s birth, enlightenment, and
+                                                    (April), Vesak (celebrating Buddha's birth, enlightenment, and
                                                     death, in May), and the Kandy Esala Perahera (a grand procession in
                                                     August)</p>
                                             </div>
@@ -1260,7 +1471,7 @@
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-3">
                                             <div class="panel-body" itemprop="text">
                                                 <p>Yes, Sri Lanka is very welcoming to solo travelers, and many tourists
-                                                    enjoy traveling around the island alone. However, it’s advisable to
+                                                    enjoy traveling around the island alone. However, it's advisable to
                                                     take precautions and plan your transportation in advance for added
                                                     safety.
 
@@ -1291,7 +1502,7 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-4">
                                             <div class="panel-body" itemprop="text">
-                                                <p>It’s recommended to check with your doctor about any vaccinations you
+                                                <p>It's recommended to check with your doctor about any vaccinations you
                                                     might need, such as hepatitis A, hepatitis B, and typhoid. You
                                                     should also drink bottled or filtered water to avoid waterborne
                                                     illnesses.</p>
@@ -1694,6 +1905,29 @@
                 },
                 submitHandler: function(form) {
                     form.submit();
+                }
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const header = document.querySelector('header');
+            const topNav = document.querySelector('.top-navigation');
+            const menuItems = document.querySelectorAll('#menu-top-menu > li > a');
+            const arrows = document.querySelectorAll('.menu-item-has-children .arrow');
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                    topNav.classList.add('scrolled');
+                    menuItems.forEach(item => item.classList.add('scrolled'));
+                    arrows.forEach(arrow => arrow.classList.add('scrolled'));
+                } else {
+                    header.classList.remove('scrolled');
+                    topNav.classList.remove('scrolled');
+                    menuItems.forEach(item => item.classList.remove('scrolled'));
+                    arrows.forEach(arrow => arrow.classList.remove('scrolled'));
                 }
             });
         });

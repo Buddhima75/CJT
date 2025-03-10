@@ -10,7 +10,7 @@
 <!--<![endif]-->
 
 <head>
-   <title>Ceylon Highlights Tours
+   <title> Tours
    </title>
    <meta name="description" content="Visit Colombo, Sri Lanka, a city with amazing restaurants, luxury hotels, busy streets and buzzing nightlife at some top Explore that suit any type of traveler.
                " />

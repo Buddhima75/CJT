@@ -259,8 +259,7 @@
                                     </div>
                                     <!-- Carousel Controls -->
                                     <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-                                       <span class="carousel-control">
-                                          << /span>
+                                       <span class="carousel-control"><</span>
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
                                        <span class="carousel-control">></span>

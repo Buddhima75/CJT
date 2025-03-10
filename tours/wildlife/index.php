@@ -201,7 +201,7 @@
             <div class="dynamic-overlay" style="opacity: 0.7;"></div>
             <div class="right-image mobile">
                <div class="right-img-mobile"
-                  style="background-image:url('http://localhost/cjd/images/tours/h5.jpg')">
+                  style="background-image:url('http://localhost/cjd/images/tours/h5 - Copy.jpg')">
                </div>
                <div class="right-img-ipad"
                   style="background-image:url('http://localhost/cjd/images/tours/h5.jpg')">

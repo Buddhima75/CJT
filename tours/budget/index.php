@@ -228,7 +228,8 @@
 
     <!-- We Need From You Section -->
     <section class="need-from-you">
-        <h1>We Need From You</h1>
+        <h1>Budget & Tailor-made Tours</h1>
+        <h2>We Need From You</h2>
         <div class="cards-container">
             <div class="info-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="card-icon">
